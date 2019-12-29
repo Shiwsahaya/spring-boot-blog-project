@@ -27,8 +27,8 @@ public class PostsController {
     @RequestMapping("/")
     public ModelAndView home() {
         ModelAndView mav = new ModelAndView("result");
-        List<Posts> listCustomer = service.listAll();
-        mav.addObject("listCustomer", listCustomer);
+        List<Posts> listPost = service.listAll();
+        mav.addObject("listPost", listPost);
         return mav;
     }
 
@@ -81,16 +81,16 @@ public class PostsController {
     @RequestMapping("/sort-by-published-date")
     public ModelAndView sortByPublishDate() {
         ModelAndView modelAndView = new ModelAndView("result");
-        List<Posts> listCustomer = service.sortByPublishedDate();
-        modelAndView.addObject("listCustomer", listCustomer);
+        List<Posts> listPost = service.sortByPublishedDate();
+        modelAndView.addObject("listPost", listPost);
         return modelAndView;
     }
 
     @RequestMapping("/sort-by-last-updated")
     public ModelAndView sortByLastUpdatedDate() {
         ModelAndView modelAndView = new ModelAndView("result");
-        List<Posts> listCustomer = service.sortByUpLastUpdatedDate();
-        modelAndView.addObject("listCustomer", listCustomer);
+        List<Posts> listPost = service.sortByUpLastUpdatedDate();
+        modelAndView.addObject("listPost", listPost);
         return modelAndView;
     }
 
@@ -99,9 +99,29 @@ public class PostsController {
         Pageable pageable = PageRequest.of(0, 3);
         ModelAndView modelAndView = new ModelAndView("result");
         Page<Posts> allPost = service.findAllByPage(pageable);
-        modelAndView.addObject("listCustomer", allPost.getContent());
+        modelAndView.addObject("listPost", allPost.getContent());
         return modelAndView;
     }
 
+    @RequestMapping("/search")
+    public ModelAndView search(@RequestParam String keyword){
+        ModelAndView modelAndView= new ModelAndView("search");
+        List<Posts>listPost=service.search(keyword);
+        modelAndView.addObject("listPost",listPost);
+        System.out.println(listPost.get(0).getTitle());
+        return modelAndView;
+    }
+
+    @RequestMapping("/filter")
+    public ModelAndView filter(@RequestParam String[] name){
+        List<Posts> listPost=null;
+        ModelAndView modelAndView=new ModelAndView("filter");
+        for (String itr : name) {
+            Category category = categoryService.get(Integer.parseInt(itr));
+            listPost=category.getPosts();
+        }
+        modelAndView.addObject("listPost",listPost);
+        return modelAndView;
+    }
 
 }

@@ -17,7 +17,20 @@
 <h3><a href="sort-by-published-date">Sort BY Published Date</a></h3>
 <h3><a href="sort-by-last-updated">Sort By Last Updated</a></h3>
 
-<% List<Posts> results = (List<Posts>) request.getAttribute("listCustomer");%>
+<form method="post" action="filter">
+    <input type="checkbox" name="name" value="1"/>Technology
+    <input type="checkbox" name="name" value="2"/>Science
+    <input type="checkbox" name="name" value="3"/>Nature
+    <input type="checkbox" name="name" value="4"/>Space
+    <input type="submit" value="Submit">
+</form>
+
+<form method="post" action="search">
+    <input type="text" name="keyword"/>
+    <input type="submit" value="Search"/>
+</form>
+
+<% List<Posts> results = (List<Posts>) request.getAttribute("listPost");%>
 <% for (Posts value : results) {%>
 <h2>
     <%= value.getTitle()%>

@@ -45,4 +45,7 @@ public class PostsService {
     public Page<Posts>findAllByPage(Pageable pageable){
         return repo.findAll(pageable);
     }
+    public List<Posts>search(String keyword){
+        return repo.search(keyword);
+    }
 }
