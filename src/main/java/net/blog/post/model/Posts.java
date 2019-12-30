@@ -10,10 +10,23 @@ import java.util.List;
 public class Posts {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id", updatable = false, nullable = false)
+    @Column(name = "id", updatable = false, nullable = false, insertable = false)
     private  int id;
     private String title;
     private String body;
+
+    public Users getAuthorId() {
+        return authorId;
+    }
+
+    public void setAuthorId(Users authorId) {
+        this.authorId = authorId;
+    }
+
+    @ManyToOne(cascade= {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.DETACH, CascadeType.REFRESH})
+
+    private Users authorId;
+
     @CreationTimestamp
     @Column(updatable = false)
     private LocalDateTime createdAt;
@@ -35,7 +48,7 @@ public class Posts {
             joinColumns=@JoinColumn(name="posts_id"),
             inverseJoinColumns=@JoinColumn(name="category_id")
     )
-    private List<Category> categories;
+    private List<Category> categories=new ArrayList<>();
 
     public void addCategory(Category theCategory){
         if(categories==null){
@@ -43,6 +56,10 @@ public class Posts {
         }
         categories.add(theCategory);
     }
+
+
+
+
     public LocalDateTime getCreatedAt() {
         return createdAt;
     }
