@@ -1,4 +1,5 @@
 package net.blog.post.controller;
+
 import net.blog.post.model.Category;
 import net.blog.post.model.Posts;
 
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
+
 import org.springframework.data.domain.Pageable;
 
 import java.util.Map;
@@ -40,10 +42,9 @@ public class PostsController {
         mav.addObject("listPost", listPost.getContent());
         return mav;
     }
-
     @RequestMapping("/page/{page-no}")
     public ModelAndView fetchByPage(@PathVariable("page-no") int pageNo) {
-        Pageable pageable = PageRequest.of(pageNo-1, 3);
+        Pageable pageable = PageRequest.of(pageNo - 1, 3);
         ModelAndView modelAndView = new ModelAndView("result");
         Page<Posts> allPost = postsService.findAllByPage(pageable);
         modelAndView.addObject("listPost", allPost.getContent());
@@ -55,32 +56,39 @@ public class PostsController {
         model.put("posts", new Posts());
         return "new";
     }
-
-    @RequestMapping(value = "/edit/save", method = RequestMethod.POST)
-    public String editSave(@ModelAttribute("posts") Posts posts) {
-        postsService.save(posts);
-        return "redirect:/";
-    }
+//
+//    @RequestMapping(value = "/edit/save", method = RequestMethod.POST)
+//    public String editSave(@ModelAttribute("posts") Posts posts,@RequestParam String[] name) {
+//        posts.getCategories().clear();
+//        for (String itr : name) {
+//            Category category = categoryService.get(Integer.parseInt(itr));
+//            posts.getCategories().add(category);
+//
+//        }
+//        Users users=usersService.get(127);
+//        posts.setAuthorId(users);
+//        postsService.save(posts);
+//        System.out.println(users.getId());
+//        users.getPosts().add(posts);
+////        postsService.save(posts);
+//        usersService.save(users);
+//        return "redirect:/";
+//    }
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
     public String savePost(@ModelAttribute("posts") Posts posts, @RequestParam String[] name) {
+        posts.getCategories().clear();
         for (String itr : name) {
             Category category = categoryService.get(Integer.parseInt(itr));
             posts.getCategories().add(category);
 
         }
 
-        Users users=new Users();
-        users.setName("raj");
-
-        users.getPosts().add(posts);
-
-        usersService.save(users);
-
+        Users users = usersService.get(1);
         posts.setAuthorId(users);
-
+        System.out.println(users.getId());
+        users.getPosts().add(posts);
         postsService.save(posts);
-
         return "redirect:/";
     }
 
@@ -102,6 +110,7 @@ public class PostsController {
 
     @RequestMapping("/delete/delete-confirm")
     public String deletePost(@RequestParam int id) {
+        System.out.println("delete id: " + id);
         postsService.delete(id);
         return "redirect:/";
     }
@@ -123,23 +132,21 @@ public class PostsController {
     }
 
     @RequestMapping("/search")
-    public ModelAndView search(@RequestParam String keyword){
-        ModelAndView modelAndView= new ModelAndView("search");
-        List<Posts>listPost= postsService.search(keyword);
-        modelAndView.addObject("listPost",listPost);
+    public ModelAndView search(@RequestParam String keyword) {
+        ModelAndView modelAndView = new ModelAndView("search");
+        List<Posts> listPost = postsService.search(keyword);
+        modelAndView.addObject("listPost", listPost);
         System.out.println(listPost.get(0).getTitle());
         return modelAndView;
     }
 
-    @RequestMapping("/filter")
-    public ModelAndView filter(@RequestParam String[] name){
-        List<Posts> listPost=null;
-        ModelAndView modelAndView=new ModelAndView("filter");
-        for (String itr : name) {
-            Category category = categoryService.get(Integer.parseInt(itr));
-            listPost=category.getPosts();
-        }
-        modelAndView.addObject("listPost",listPost);
+    @RequestMapping("/filter/{categoryId}")
+    public ModelAndView filter(@PathVariable("categoryId") int categoryId) {
+        List<Posts> listPost = null;
+        ModelAndView modelAndView = new ModelAndView("filter");
+        Category category = categoryService.get(categoryId);
+        listPost = category.getPosts();
+        modelAndView.addObject("listPost", listPost);
         return modelAndView;
     }
 

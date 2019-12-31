@@ -23,8 +23,7 @@ public class Posts {
         this.authorId = authorId;
     }
 
-    @ManyToOne(cascade= {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.DETACH, CascadeType.REFRESH})
-
+    @ManyToOne
     private Users authorId;
 
     @CreationTimestamp

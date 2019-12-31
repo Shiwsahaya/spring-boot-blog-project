@@ -1,4 +1,5 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="input" uri="http://www.springframework.org/tags/form" %>
 <%--
   Created by IntelliJ IDEA.
   User: shiw
@@ -10,43 +11,42 @@
 <html>
 <head>
     <title>Title</title>
-    <style>
-        .error {
-            color: red
-        }
-    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
 <body>
-Create Post
-<%--@elvariable id="posts" type="java"--%>
+<h2 style="text-align: center">New Post</h2><br/>
+
+<div class="d-flex justify-content-center align-items-center container ">
+    <div class="row ">
 <form:form action="save" method="post" modelAttribute="posts">
-    <table border="0" cellpadding="5">
-        <tr>
-            <td>Title:</td>
-            <td><form:input path="title" cssClass="error"/></td>
-        </tr>
 
-        <tr>
-            <td>Body:</td>
-            <td><form:textarea rows="4" cols="50" path="body"/></td>
-        </tr>
-            <%--        <tr>--%>
-            <%--            <td colspan="2"><input type="submit" value="save"></td>--%>
-            <%--        </tr>--%>
+    <h4>Choose Category</h4>
+    <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="tech-checkbox" name="name" value="1">
+        <label class="form-check-label" for="tech-checkbox">Technology</label><br>
 
-        <tr>
-                <%--@elvariable id="category" type="java"--%>
+        <input type="checkbox" class="form-check-input" id="science-checkbox" name="name" value="2">
+        <label class="form-check-label" for="science-checkbox">Science</label><br>
 
-                <input type="checkbox" name="name" value="1"/>Technology
-                <input type="checkbox" name="name" value="2"/>Science
-                <input type="checkbox" name="name" value="3"/>Nature
-                <input type="checkbox" name="name" value="4"/>Space
-                <td>
-                    <input type="submit" value="submit"/>
-                </td>
+        <input type="checkbox" class="form-check-input" id="nature-checkbox" name="name" value="3">
+        <label class="form-check-label" for="nature-checkbox">Nature</label><br>
 
-        </tr>
-    </table>
+        <input type="checkbox" class="form-check-input" id="space-checkbox" name="name" value="4">
+        <label class="form-check-label" for="space-checkbox">Space</label><br>
+    </div>
+
+<div class="form-group">
+    <label for="title-id">Title</label>
+    <form:input path="title" type="text" class="form-control" id="title-id" aria-describedby="emailHelp"/>
+</div>
+    <div class="form-group">
+        <label for="textarea">Body</label>
+        <form:textarea path="body" class="form-control rounded-0" id="textarea" rows="4" cols="31"/>
+    </div>
+<button type="submit" class="btn btn-primary">Submit</button>
 </form:form>
+</div>
+</div>
 </body>
 </html>

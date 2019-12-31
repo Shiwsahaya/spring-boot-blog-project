@@ -12,7 +12,15 @@
     <title>Title</title>
 </head>
 <body>
-<form:form action="save" method="post" modelAttribute="posts">
+<form:form action="/save" method="post" modelAttribute="posts">
+
+    <tr>
+            <%--@elvariable id="category" type="java"--%>
+        <input type="checkbox" name="name" value="1"/>Technology
+        <input type="checkbox" name="name" value="2"/>Science
+        <input type="checkbox" name="name" value="3"/>Nature
+        <input type="checkbox" name="name" value="4"/>Space
+    </tr>
     <table border="0" cellpadding="5">
         <tr>
             <td>ID:</td>

@@ -18,8 +18,7 @@ public class Users {
         this.postsUser = posts;
     }
 
-    @OneToMany(cascade= {CascadeType.PERSIST, CascadeType.MERGE,
-            CascadeType.DETACH, CascadeType.REFRESH})
+    @OneToMany(mappedBy = "authorId")
     private List<Posts> postsUser=new ArrayList<>();
     public int getId() {
         return id;
