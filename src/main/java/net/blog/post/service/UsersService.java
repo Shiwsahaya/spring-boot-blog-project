@@ -1,16 +1,17 @@
 package net.blog.post.service;
-
 import net.blog.post.Repository.UsersRepository;
-import net.blog.post.model.Category;
+import net.blog.post.model.UserPrincipal;
 import net.blog.post.model.Users;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Optional;
 
 @Service
-public class UsersService {
+public class UsersService implements UserDetailsService {
 
     @Autowired
     private UsersRepository usersRepo;
@@ -30,5 +31,13 @@ public class UsersService {
 
     public void delete(int id){
         usersRepo.deleteById(id);
+    }
+
+    @Override
+    public UserDetails loadUserByUsername(String name) throws UsernameNotFoundException {
+        Users users=usersRepo.findByName(name);
+        if(users==null)
+            throw new UsernameNotFoundException("User 404");
+        return new UserPrincipal(users);
     }
 }

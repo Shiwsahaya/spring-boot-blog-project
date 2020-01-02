@@ -18,14 +18,11 @@ public class Posts {
     public Users getAuthorId() {
         return authorId;
     }
-
     public void setAuthorId(Users authorId) {
         this.authorId = authorId;
     }
-
     @ManyToOne
     private Users authorId;
-
     @CreationTimestamp
     @Column(updatable = false)
     private LocalDateTime createdAt;

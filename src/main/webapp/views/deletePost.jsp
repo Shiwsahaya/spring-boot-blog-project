@@ -12,7 +12,7 @@
     <title>Title</title>
 </head>
 <body>
-<form:form action="delete-confirm" method="get" modelAttribute="posts">
+<form:form action="delete-confirm" method="post" modelAttribute="posts">
     <table border="0" cellpadding="5">
         <tr>
             <td>ID:</td>
