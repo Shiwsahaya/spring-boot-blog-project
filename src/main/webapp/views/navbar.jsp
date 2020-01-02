@@ -1,3 +1,4 @@
+<%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 <jsp:include page="/views/externalLink.jsp"/>
 </head>
 <body>
@@ -37,6 +38,12 @@
             <input class="form-control mr-sm-2" type="text" placeholder="Search" name="keyword"/>
             <input class="btn btn-outline-success my-2 my-sm-0" type="submit" value="Search"/>
         </form>
-        <a href="/logout">logout</a>
+        <security:authorize access="hasAnyAuthority('author', 'admin')">
+            <a href="/logout">logout</a>
+        </security:authorize>
+
+        <a href="/login">Login</a>
+
+
     </div>
 </nav>
