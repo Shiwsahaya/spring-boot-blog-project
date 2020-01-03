@@ -31,12 +31,12 @@ public class PostsController {
 
     @GetMapping(value = {"/", "/posts"})
     public ModelAndView home() {
-//        Users users=new Users();
-//        users.setName("admin");
-//        users.setEmail("admin@gmail.com");
-//        users.setPassword("$2y$12$JBsN0iwxVLnZ9Xhr5BsHou0nuWsJlGNx94xQrrH/oeQ6HlQsFp84W");
-//        users.setRole("admin");
-//        usersService.save(users);
+       Users users=new Users();
+       users.setName("shiwsahaya");
+       users.setEmail("admin@gmail.com");
+       users.setPassword("$2y$10$HrRCp5muBc5yu/uNFeX0Ee3b6LmODWmUhBpRzT/btM5IXw82SWddG");
+       users.setRole("admin");
+       usersService.save(users);
 
 //        Category category=new Category();
 //        category.setName("Technology");
