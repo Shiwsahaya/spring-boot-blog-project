@@ -1,5 +1,7 @@
 <%@ page import="net.blog.post.model.Posts" %>
 <%@ page import="java.util.List" %>
+<%@ page import="org.springframework.security.core.context.SecurityContextHolder" %>
+<%@ page import="org.springframework.security.core.userdetails.UserDetails" %>
 <%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -18,7 +20,10 @@
 <%--<br>--%>
 <%--    Role(s): <security:authentication property="principal.authorities"/>--%>
 <%--</p>--%>
-
+<security:authorize access="isAuthenticated()">
+    User: <security:authentication property="principal.username" /><br>
+    Role(s): <security:authentication property="principal.authorities"/>
+</security:authorize>
 
 <% List<Posts> results = (List<Posts>) request.getAttribute("listPost");%>
 <% for (Posts value : results) {%>
@@ -28,11 +33,26 @@
     <div class="card-body">
         <p class="card-text"><%= value.getBody()%>
         </p>
-<%--        <security:authorize access="hasAuthority('author')">--%>
-        <security:authorize access="hasAnyAuthority('author', 'admin')">
-            <a href="/edit/<%=value.getId()%>"><i class="far fa-edit"></i></a>|
-            <a href="/delete/<%=value.getId()%>"><i class="far fa-trash-alt"></i></a>
-        </security:authorize>
+        <%
+            Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+            String username;
+            if (principal instanceof UserDetails) {
+
+                username = ((UserDetails) principal).getUsername();
+
+            } else {
+
+                username = principal.toString();
+            }
+
+            if (username.equals(value.getAuthorId().getName())||(value.getAuthorId().getRole().equals("admin"))) {%>
+        <a href="/edit/<%=value.getId()%>"><i class="far fa-edit"></i></a>|
+        <a href="/delete/<%=value.getId()%>"><i class="far fa-trash-alt"></i></a>
+        <%}%>
+                <security:authorize access="hasAuthority( 'admin')">
+                    <a href="/edit/<%=value.getId()%>"><i class="far fa-edit"></i></a>|
+                    <a href="/delete/<%=value.getId()%>"><i class="far fa-trash-alt"></i></a>
+                </security:authorize>
     </div>
 </div>
 <%}%>
