@@ -14,7 +14,6 @@ public class Posts {
     private  int id;
     private String title;
     private String body;
-
     public Users getAuthorId() {
         return authorId;
     }

@@ -22,6 +22,7 @@
         </p>
         <input name="_csrf" type="hidden" value="9465e98e-3dbd-4b89-ae46-3817c79966de" />
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <a href="/sign-up">Sign Up</a>
     </form>
 </div>
 </body></html>

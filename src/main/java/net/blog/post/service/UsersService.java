@@ -16,27 +16,31 @@ public class UsersService implements UserDetailsService {
     @Autowired
     private UsersRepository usersRepo;
 
-    public List<Users> listAll(){
-        return (List<Users>)usersRepo.findAll();
+    public List<Users> listAll() {
+        return (List<Users>) usersRepo.findAll();
     }
 
     public void save(Users users) {
         usersRepo.save(users);
     }
 
-    public Users get(int id){
-        Optional<Users> result=usersRepo.findById(id);
+    public Users get(int id) {
+        Optional<Users> result = usersRepo.findById(id);
         return result.get();
     }
 
-    public void delete(int id){
+    public void delete(int id) {
         usersRepo.deleteById(id);
+    }
+
+    public Users findByName(String name) {
+        return usersRepo.findByName(name);
     }
 
     @Override
     public UserDetails loadUserByUsername(String name) throws UsernameNotFoundException {
-        Users users=usersRepo.findByName(name);
-        if(users==null)
+        Users users = usersRepo.findByName(name);
+        if (users == null)
             throw new UsernameNotFoundException("User 404");
         return new UserPrincipal(users);
     }
