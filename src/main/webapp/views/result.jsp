@@ -43,6 +43,7 @@
             } else {
 
                 username = principal.toString();
+                System.out.println(username);
             }
 
             if (username.equals(value.getAuthorId().getName())||(value.getAuthorId().getRole().equals("admin"))) {%>
