@@ -31,28 +31,28 @@ public class PostsController {
 
     @GetMapping(value = {"/", "/posts"})
     public ModelAndView home() {
-       Users users=new Users();
-       users.setName("admin");
-       users.setEmail("admin@gmail.com");
-       users.setPassword("$2y$12$JBsN0iwxVLnZ9Xhr5BsHou0nuWsJlGNx94xQrrH/oeQ6HlQsFp84W");
-       users.setRole("admin");
-       usersService.save(users);
+//        Users users=new Users();
+//        users.setName("admin");
+//        users.setEmail("admin@gmail.com");
+//        users.setPassword("$2y$12$JBsN0iwxVLnZ9Xhr5BsHou0nuWsJlGNx94xQrrH/oeQ6HlQsFp84W");
+//        users.setRole("admin");
+//        usersService.save(users);
 
-       Category category=new Category();
-       category.setName("Technology");
-       categoryService.save(category);
+//        Category category=new Category();
+//        category.setName("Technology");
+//        categoryService.save(category);
 
-       Category category1=new Category();
-       category1.setName("Science");
-       categoryService.save(category1);
+//        Category category1=new Category();
+//        category1.setName("Science");
+//        categoryService.save(category1);
 
-       Category category2=new Category();
-       category2.setName("Nature");
-       categoryService.save(category2);
+//        Category category2=new Category();
+//        category2.setName("Nature");
+//        categoryService.save(category2);
 
-       Category category3=new Category();
-       category3.setName("Space");
-       categoryService.save(category3);
+//        Category category3=new Category();
+//        category3.setName("Space");
+//        categoryService.save(category3);
 
         ModelAndView mav = new ModelAndView("result");
         Pageable pageable = PageRequest.of(0, 3);
