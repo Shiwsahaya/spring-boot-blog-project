@@ -10,16 +10,18 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
+            <security:authorize access="isAuthenticated()">
             <li class="nav-item active">
                 <a class="nav-link" href="/add">New Post</a>
             </li>
+            </security:authorize>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="sortByDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Sort By
                 </a>
                 <div class="dropdown-menu" aria-labelledby="sortByDropdown">
-                    <a class="dropdown-item" href="published-date">Published Date</a>
-                    <a class="dropdown-item" href="last-updated">Last Date</a>
+                    <a class="dropdown-item" href="/published-date">Published Date</a>
+                    <a class="dropdown-item" href="/last-updated">Last Date</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -39,10 +41,10 @@
             <input class="btn btn-outline-success my-2 my-sm-0" type="submit" value="Search"/>
         </form>
         <security:authorize access="!isAuthenticated()">
-            <a href="/login">Login</a>
+            <a href="/login" class="btn btn-outline-success my-2 my-sm-0">Login</a>
         </security:authorize>
         <security:authorize access="isAuthenticated()">
-            <a href="/logout">logout</a>
+            <a href="/logout" class="btn btn-outline-success my-2 my-sm-0">logout</a>
         </security:authorize>
 
 

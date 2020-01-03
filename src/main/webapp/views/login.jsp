@@ -11,7 +11,7 @@
 <body>
 <div class="container">
     <form class="form-signin" method="post" action="/login">
-        <h2 class="form-signin-heading">Please sign in (Customize page)</h2>
+        <h2 class="form-signin-heading">Please sign in</h2>
 <%--        <div class="alert alert-danger" role="alert">Invalid credentials</div>  <p>--%>
         <label for="username" class="sr-only">Username</label>
         <input type="text" id="username" name="username" class="form-control" placeholder="Username" required autofocus>
@@ -22,7 +22,7 @@
         </p>
         <input name="_csrf" type="hidden" value="9465e98e-3dbd-4b89-ae46-3817c79966de" />
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-        <a href="/sign-up">Sign Up</a>
+        <a href="/sign-up" class="btn btn-lg btn-primary btn-block" >Sign Up</a>
     </form>
 </div>
 </body></html>

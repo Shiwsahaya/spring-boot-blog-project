@@ -45,7 +45,7 @@ public class PostsController {
 
     @GetMapping("/logout-success")
     public String logoutPage() {
-        return "login";
+        return "redirect:/";
     }
 
     @RequestMapping("/page/{page-no}")
@@ -130,7 +130,7 @@ public class PostsController {
 
     @GetMapping("/posts/search")
     public ModelAndView search(@RequestParam String keyword) {
-        ModelAndView modelAndView = new ModelAndView("search");
+        ModelAndView modelAndView = new ModelAndView("result");
         List<Posts> listPost = postsService.search(keyword);
         modelAndView.addObject("listPost", listPost);
         return modelAndView;
@@ -139,7 +139,7 @@ public class PostsController {
     @RequestMapping("/filter/{categoryId}")
     public ModelAndView filter(@PathVariable("categoryId") int categoryId) {
         List<Posts> listPost = null;
-        ModelAndView modelAndView = new ModelAndView("filter");
+        ModelAndView modelAndView = new ModelAndView("result");
         Category category = categoryService.get(categoryId);
         listPost = category.getPosts();
         modelAndView.addObject("listPost", listPost);
