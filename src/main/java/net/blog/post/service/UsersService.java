@@ -40,5 +40,4 @@ public class UsersService implements UserDetailsService {
             throw new UsernameNotFoundException("User 404");
         return new UserPrincipal(users);
     }
-
 }

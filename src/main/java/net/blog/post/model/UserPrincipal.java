@@ -15,16 +15,19 @@ public class UserPrincipal implements UserDetails {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-       return Collections.singleton(new SimpleGrantedAuthority(users.getRole()));
+       return Collections.singleton(new SimpleGrantedAuthority("USER"));
     }
 
     @Override
     public String getPassword() {
+
+        System.out.println(users.getPassword());
         return users.getPassword();
     }
 
     @Override
     public String getUsername() {
+        System.out.println(users.getName());
         return users.getName();
     }
 

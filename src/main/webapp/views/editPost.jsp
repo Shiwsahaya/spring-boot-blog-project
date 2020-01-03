@@ -1,5 +1,4 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 <%--
   Created by IntelliJ IDEA.
   User: shiw
@@ -13,10 +12,6 @@
     <title>Title</title>
 </head>
 <body>
-<p>User: <security:authentication property="principal.username"/>
-<br>
-    Role(s): <security:authentication property="principal.authorities"/>
-</p>
 <form:form action="/save" method="post" modelAttribute="posts">
 
     <tr>
