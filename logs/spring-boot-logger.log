@@ -1,0 +1,32 @@
+2020-01-04 10:18:23,036 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 8036 (/home/shiw/IdeaProjects/demoBlog**/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog**)
+2020-01-04 10:18:23,039 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-04 10:18:23,040 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-04 10:18:35,603 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 15.45 seconds (JVM running for 18.387)
+2020-01-04 10:19:33,458 DEBUG net.blog.post.controller.PostsController [http-nio-8080-exec-1] debug info
+2020-01-04 10:19:33,461 INFO net.blog.post.controller.PostsController [http-nio-8080-exec-1] insert in home
+2020-01-04 10:19:47,932 ERROR net.blog.post.controller.PostsController [http-nio-8080-exec-3] error generated
+2020-01-04 10:19:47,933 INFO net.blog.post.controller.PostsController [http-nio-8080-exec-3] search executed
+2020-01-04 10:19:47,933 TRACE net.blog.post.controller.PostsController [http-nio-8080-exec-3] search trace
+2020-01-04 10:20:08,257 DEBUG net.blog.post.controller.PostsController [http-nio-8080-exec-6] debug info
+2020-01-04 10:20:08,257 INFO net.blog.post.controller.PostsController [http-nio-8080-exec-6] insert in home
+2020-01-04 10:20:10,251 ERROR net.blog.post.controller.PostsController [http-nio-8080-exec-7] error generated
+2020-01-04 10:20:10,252 INFO net.blog.post.controller.PostsController [http-nio-8080-exec-7] search executed
+2020-01-04 10:20:10,252 TRACE net.blog.post.controller.PostsController [http-nio-8080-exec-7] search trace
+2020-01-04 10:20:27,675 DEBUG net.blog.post.controller.PostsController [http-nio-8080-exec-9] debug info
+2020-01-04 10:20:27,675 INFO net.blog.post.controller.PostsController [http-nio-8080-exec-9] insert in home
+2020-01-04 10:20:29,407 ERROR net.blog.post.controller.PostsController [http-nio-8080-exec-10] error generated
+2020-01-04 10:20:29,408 INFO net.blog.post.controller.PostsController [http-nio-8080-exec-10] search executed
+2020-01-04 10:20:29,408 TRACE net.blog.post.controller.PostsController [http-nio-8080-exec-10] search trace
+2020-01-04 10:20:33,011 ERROR net.blog.post.controller.PostsController [http-nio-8080-exec-1] error generated
+2020-01-04 10:20:33,011 INFO net.blog.post.controller.PostsController [http-nio-8080-exec-1] search executed
+2020-01-04 10:20:33,012 TRACE net.blog.post.controller.PostsController [http-nio-8080-exec-1] search trace
+2020-01-04 10:20:35,077 DEBUG net.blog.post.controller.PostsController [http-nio-8080-exec-2] debug info
+2020-01-04 10:20:35,081 INFO net.blog.post.controller.PostsController [http-nio-8080-exec-2] insert in home
+2020-01-04 10:20:36,861 ERROR net.blog.post.controller.PostsController [http-nio-8080-exec-3] error generated
+2020-01-04 10:20:36,862 INFO net.blog.post.controller.PostsController [http-nio-8080-exec-3] search executed
+2020-01-04 10:20:36,863 TRACE net.blog.post.controller.PostsController [http-nio-8080-exec-3] search trace
+2020-01-04 10:20:50,267 DEBUG net.blog.post.controller.PostsController [http-nio-8080-exec-5] debug info
+2020-01-04 10:20:50,268 INFO net.blog.post.controller.PostsController [http-nio-8080-exec-5] insert in home
+2020-01-04 10:20:56,046 ERROR net.blog.post.controller.PostsController [http-nio-8080-exec-6] error generated
+2020-01-04 10:20:56,048 INFO net.blog.post.controller.PostsController [http-nio-8080-exec-6] search executed
+2020-01-04 10:20:56,048 TRACE net.blog.post.controller.PostsController [http-nio-8080-exec-6] search trace

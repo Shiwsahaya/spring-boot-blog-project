@@ -15,9 +15,9 @@
       <Owner>postgres</Owner>
       <IntrospectionStateNumber>1849</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|16891|16893|1
+      <Relations>sequence|table|17649|17651|1
+sequence|table|16891|16893|1
 sequence|table|17660|17662|1
-sequence|table|17649|17651|1
 </Relations>
     </database>
     <role id="4" parent="1" name="first">

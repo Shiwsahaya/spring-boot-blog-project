@@ -5,6 +5,8 @@ import net.blog.post.model.Users;
 import net.blog.post.service.CategoryService;
 import net.blog.post.service.PostsService;
 import net.blog.post.service.UsersService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -19,6 +21,7 @@ import org.springframework.data.domain.Pageable;
 import javax.servlet.ServletRequest;
 import java.util.Map;
 
+
 @Controller
 public class PostsController {
 
@@ -29,31 +32,11 @@ public class PostsController {
     @Autowired
     public UsersService usersService;
 
+    private static Logger logger= LoggerFactory.getLogger(PostsController.class);
     @GetMapping(value = {"/", "/posts"})
     public ModelAndView home() {
-//        Users users=new Users();
-//        users.setName("admin");
-//        users.setEmail("admin@gmail.com");
-//        users.setPassword("$2y$12$JBsN0iwxVLnZ9Xhr5BsHou0nuWsJlGNx94xQrrH/oeQ6HlQsFp84W");
-//        users.setRole("admin");
-//        usersService.save(users);
-//
-//        Category category=new Category();
-//        category.setName("Technology");
-//        categoryService.save(category);
-//
-//        Category category1=new Category();
-//        category1.setName("Science");
-//        categoryService.save(category1);
-//
-//        Category category2=new Category();
-//        category2.setName("Nature");
-//        categoryService.save(category2);
-//
-//        Category category3=new Category();
-//        category3.setName("Space");
-//        categoryService.save(category3);
-
+        logger.debug("debug info");
+        logger.info("insert in home");
         ModelAndView mav = new ModelAndView("result");
         Pageable pageable = PageRequest.of(0, 3);
         Page<Posts> listPost = postsService.findAllByPage(pageable);
@@ -130,7 +113,6 @@ public class PostsController {
 
     @PostMapping("/delete/delete-confirm")
     public String deletePost(@RequestParam int id) {
-        System.out.println("delete id: " + id);
         postsService.delete(id);
         return "redirect:/";
     }
@@ -154,6 +136,9 @@ public class PostsController {
     @GetMapping("/posts/search")
     public ModelAndView search(@RequestParam String keyword) {
         ModelAndView modelAndView = new ModelAndView("result");
+        logger.error("error generated");
+        logger.info("search executed");
+        logger.trace("search trace");
         List<Posts> listPost = postsService.search(keyword);
         modelAndView.addObject("listPost", listPost);
         return modelAndView;

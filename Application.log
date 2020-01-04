@@ -1,0 +1,154 @@
+2020-01-03 22:01:37.169  INFO 5673 --- [main] net.blog.post.BlogApp                    : Starting BlogApp on shiw-Vostro-3478 with PID 5673 (/home/shiw/IdeaProjects/demoBlog**/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog**)
+2020-01-03 22:01:37.172  INFO 5673 --- [main] net.blog.post.BlogApp                    : No active profile set, falling back to default profiles: default
+2020-01-03 22:01:40.822  INFO 5673 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-03 22:01:41.208  INFO 5673 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 167ms. Found 3 JPA repository interfaces.
+2020-01-03 22:01:41.995  INFO 5673 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-03 22:01:43.022  INFO 5673 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-03 22:01:43.045  INFO 5673 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-03 22:01:43.046  INFO 5673 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-03 22:01:43.445  INFO 5673 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-03 22:01:43.456  INFO 5673 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-03 22:01:43.456  INFO 5673 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5990 ms
+2020-01-03 22:01:43.847  INFO 5673 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-03 22:01:43.949  INFO 5673 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-03 22:01:44.232  INFO 5673 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-03 22:01:44.360  INFO 5673 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-03 22:01:45.343  INFO 5673 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-03 22:01:45.403  INFO 5673 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-01-03 22:01:46.239  INFO 5673 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-03 22:01:46.243  INFO 5673 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-03 22:01:46.341  WARN 5673 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-03 22:01:46.999  INFO 5673 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@361d8567, org.springframework.security.web.context.SecurityContextPersistenceFilter@59043741, org.springframework.security.web.header.HeaderWriterFilter@1b06dc57, org.springframework.security.web.authentication.logout.LogoutFilter@57617a75, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@53d2b827, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64cdc310, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@10508ba6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3fd6dfbc, org.springframework.security.web.session.SessionManagementFilter@14e83c9d, org.springframework.security.web.access.ExceptionTranslationFilter@62e586a6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1ba3c03d]
+2020-01-03 22:01:47.137  INFO 5673 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-03 22:01:47.342  INFO 5673 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-03 22:01:47.373  INFO 5673 --- [main] net.blog.post.BlogApp                    : Started BlogApp in 11.557 seconds (JVM running for 16.187)
+2020-01-03 23:04:24.859  INFO 5673 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-03 23:04:24.877  INFO 5673 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-03 23:04:24.958  INFO 5673 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-03 23:04:25.011  INFO 5673 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-03 23:09:59.249  INFO 8203 --- [main] net.blog.post.BlogApp                    : Starting BlogApp on shiw-Vostro-3478 with PID 8203 (/home/shiw/IdeaProjects/demoBlog**/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog**)
+2020-01-03 23:09:59.265  INFO 8203 --- [main] net.blog.post.BlogApp                    : No active profile set, falling back to default profiles: default
+2020-01-03 23:09:59.818  INFO 8203 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-03 23:09:59.861  INFO 8203 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37ms. Found 3 JPA repository interfaces.
+2020-01-03 23:10:00.037  INFO 8203 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-03 23:10:00.170  INFO 8203 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-03 23:10:00.176  INFO 8203 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-03 23:10:00.176  INFO 8203 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-03 23:10:00.412  INFO 8203 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-03 23:10:00.417  INFO 8203 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-03 23:10:00.417  INFO 8203 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1102 ms
+2020-01-03 23:10:00.506  INFO 8203 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-03 23:10:00.540  INFO 8203 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-03 23:10:00.603  INFO 8203 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-03 23:10:00.662  INFO 8203 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-03 23:10:00.809  INFO 8203 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-03 23:10:00.822  INFO 8203 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-01-03 23:10:01.329  INFO 8203 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-03 23:10:01.333  INFO 8203 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-03 23:10:01.376  WARN 8203 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-03 23:10:01.767  INFO 8203 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38ad86b1, org.springframework.security.web.context.SecurityContextPersistenceFilter@58d79479, org.springframework.security.web.header.HeaderWriterFilter@530df3ab, org.springframework.security.web.authentication.logout.LogoutFilter@5d84b088, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@857f1a7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@495f7ca4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4942e6af, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@73ff7a54, org.springframework.security.web.session.SessionManagementFilter@aaa7000, org.springframework.security.web.access.ExceptionTranslationFilter@43b2e7db, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@49cd08f9]
+2020-01-03 23:10:01.855  INFO 8203 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-03 23:10:01.994  INFO 8203 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-03 23:10:01.997  INFO 8203 --- [main] net.blog.post.BlogApp                    : Started BlogApp in 3.152 seconds (JVM running for 3.846)
+2020-01-03 23:10:37.799  INFO 8203 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-03 23:10:37.800  INFO 8203 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-03 23:10:37.804  INFO 8203 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-03 23:10:37.817  INFO 8203 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-03 23:10:42.940  INFO 8379 --- [main] net.blog.post.BlogApp                    : Starting BlogApp on shiw-Vostro-3478 with PID 8379 (/home/shiw/IdeaProjects/demoBlog**/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog**)
+2020-01-03 23:10:42.943  INFO 8379 --- [main] net.blog.post.BlogApp                    : No active profile set, falling back to default profiles: default
+2020-01-03 23:10:43.547  INFO 8379 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-03 23:10:43.589  INFO 8379 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36ms. Found 3 JPA repository interfaces.
+2020-01-03 23:10:43.758  INFO 8379 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-03 23:10:43.891  INFO 8379 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-03 23:10:43.896  INFO 8379 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-03 23:10:43.897  INFO 8379 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-03 23:10:44.076  INFO 8379 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-03 23:10:44.081  INFO 8379 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-03 23:10:44.081  INFO 8379 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1100 ms
+2020-01-03 23:10:44.174  INFO 8379 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-03 23:10:44.210  INFO 8379 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-03 23:10:44.277  INFO 8379 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-03 23:10:44.331  INFO 8379 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-03 23:10:44.505  INFO 8379 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-03 23:10:44.519  INFO 8379 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-01-03 23:10:45.008  INFO 8379 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-03 23:10:45.012  INFO 8379 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-03 23:10:45.053  WARN 8379 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-03 23:10:45.463  INFO 8379 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37a0fc8c, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f69e2d8, org.springframework.security.web.header.HeaderWriterFilter@747e8659, org.springframework.security.web.authentication.logout.LogoutFilter@57ab4b33, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@787a4519, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3539cf45, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@744db9fb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ba3c03d, org.springframework.security.web.session.SessionManagementFilter@75fa9254, org.springframework.security.web.access.ExceptionTranslationFilter@5dac6bc3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@13866865]
+2020-01-03 23:10:45.547  INFO 8379 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-03 23:10:45.675  INFO 8379 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-03 23:10:45.677  INFO 8379 --- [main] net.blog.post.BlogApp                    : Started BlogApp in 2.993 seconds (JVM running for 3.516)
+2020-01-03 23:11:03.210  INFO 8379 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-03 23:11:03.211  INFO 8379 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-03 23:11:03.246  INFO 8379 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 34 ms
+2020-01-03 23:11:24.338  INFO 8379 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-03 23:11:24.339  INFO 8379 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-03 23:11:24.436  INFO 8379 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-03 23:11:25.294  INFO 8379 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-03 23:11:34.019  INFO 8517 --- [main] net.blog.post.BlogApp                    : Starting BlogApp on shiw-Vostro-3478 with PID 8517 (/home/shiw/IdeaProjects/demoBlog**/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog**)
+2020-01-03 23:11:34.021  INFO 8517 --- [main] net.blog.post.BlogApp                    : No active profile set, falling back to default profiles: default
+2020-01-03 23:11:34.635  INFO 8517 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-03 23:11:34.701  INFO 8517 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57ms. Found 3 JPA repository interfaces.
+2020-01-03 23:11:34.891  INFO 8517 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-03 23:11:35.052  INFO 8517 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-03 23:11:35.058  INFO 8517 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-03 23:11:35.058  INFO 8517 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-03 23:11:35.459  INFO 8517 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-03 23:11:35.464  INFO 8517 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-03 23:11:35.465  INFO 8517 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1339 ms
+2020-01-03 23:11:35.559  INFO 8517 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-03 23:11:35.604  INFO 8517 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-03 23:11:35.673  INFO 8517 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-03 23:11:35.733  INFO 8517 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-03 23:11:36.069  INFO 8517 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-03 23:11:36.084  INFO 8517 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-01-03 23:11:36.672  INFO 8517 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-03 23:11:36.676  INFO 8517 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-03 23:11:36.713  WARN 8517 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-03 23:11:37.157  INFO 8517 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@337c0ee4, org.springframework.security.web.context.SecurityContextPersistenceFilter@700202fa, org.springframework.security.web.header.HeaderWriterFilter@64fba3e6, org.springframework.security.web.authentication.logout.LogoutFilter@5eb041b5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@13e0f380, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65698020, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@39a30d1a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67b09e34, org.springframework.security.web.session.SessionManagementFilter@102c24d1, org.springframework.security.web.access.ExceptionTranslationFilter@5e72c82a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4eace42b]
+2020-01-03 23:11:37.251  INFO 8517 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-03 23:11:37.394  INFO 8517 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-03 23:11:37.396  INFO 8517 --- [main] net.blog.post.BlogApp                    : Started BlogApp in 3.884 seconds (JVM running for 5.701)
+2020-01-03 23:11:42.966  INFO 8517 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-03 23:11:42.967  INFO 8517 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-03 23:11:42.973  INFO 8517 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-01-03 23:11:43.000  INFO 8517 --- [http-nio-8080-exec-1] n.blog.post.controller.PostsController   : inserting in posts
+2020-01-03 23:14:36.037  INFO 8517 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-03 23:14:36.039  INFO 8517 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-03 23:14:36.100  INFO 8517 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-03 23:14:36.197  INFO 8517 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-03 23:14:50.825  INFO 8721 --- [main] net.blog.post.BlogApp                    : Starting BlogApp on shiw-Vostro-3478 with PID 8721 (/home/shiw/IdeaProjects/demoBlog**/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog**)
+2020-01-03 23:14:50.831  INFO 8721 --- [main] net.blog.post.BlogApp                    : No active profile set, falling back to default profiles: default
+2020-01-03 23:14:54.169  INFO 8721 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-03 23:14:54.391  INFO 8721 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 164ms. Found 3 JPA repository interfaces.
+2020-01-03 23:14:55.373  INFO 8721 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-03 23:14:56.139  INFO 8721 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-03 23:14:56.146  INFO 8721 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-03 23:14:56.147  INFO 8721 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-03 23:14:56.478  INFO 8721 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-03 23:14:56.483  INFO 8721 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-03 23:14:56.483  INFO 8721 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5515 ms
+2020-01-03 23:14:56.840  INFO 8721 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-03 23:14:56.980  INFO 8721 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-03 23:14:57.274  INFO 8721 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-03 23:14:57.404  INFO 8721 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-03 23:14:58.050  INFO 8721 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-03 23:14:58.101  INFO 8721 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-01-03 23:14:58.947  INFO 8721 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-03 23:14:58.951  INFO 8721 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-03 23:14:59.070  WARN 8721 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-03 23:14:59.887  INFO 8721 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4942e6af, org.springframework.security.web.context.SecurityContextPersistenceFilter@7fdff56b, org.springframework.security.web.header.HeaderWriterFilter@5c78f456, org.springframework.security.web.authentication.logout.LogoutFilter@76208b80, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@65698020, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@35f35c59, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33a7331, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@73a1a1b4, org.springframework.security.web.session.SessionManagementFilter@319d106c, org.springframework.security.web.access.ExceptionTranslationFilter@14c18a6a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@58d79479]
+2020-01-03 23:15:00.035  INFO 8721 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-03 23:15:00.322  INFO 8721 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-03 23:15:00.337  INFO 8721 --- [main] net.blog.post.BlogApp                    : Started BlogApp in 11.357 seconds (JVM running for 14.943)
+2020-01-03 23:15:51.426  INFO 8721 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-03 23:15:51.427  INFO 8721 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-03 23:15:51.436  INFO 8721 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-01-03 23:15:51.496 ERROR 8721 --- [http-nio-8080-exec-1] n.blog.post.controller.PostsController   : error happened
+2020-01-03 23:15:51.496  INFO 8721 --- [http-nio-8080-exec-1] n.blog.post.controller.PostsController   : info 
+2020-01-03 23:16:37.258 ERROR 8721 --- [http-nio-8080-exec-2] n.blog.post.controller.PostsController   : error happened
+2020-01-03 23:16:37.258  INFO 8721 --- [http-nio-8080-exec-2] n.blog.post.controller.PostsController   : info 
+2020-01-03 23:56:13.407  INFO 8721 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-03 23:56:13.594  INFO 8721 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-03 23:56:14.107  INFO 8721 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-03 23:56:14.229  INFO 8721 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
