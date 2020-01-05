@@ -17,7 +17,7 @@
 <br>
     Role(s): <security:authentication property="principal.authorities"/>
 </p>
-<form:form action="/save" method="post" modelAttribute="posts">
+<form:form action="/posts/save" method="post" modelAttribute="posts">
 
     <tr>
             <%--@elvariable id="category" type="java"--%>

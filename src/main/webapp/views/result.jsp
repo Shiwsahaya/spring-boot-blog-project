@@ -46,12 +46,13 @@
             }
 
             if (username.equals(value.getAuthorId().getName())||(value.getAuthorId().getRole().equals("admin"))) {%>
-        <a href="/edit/<%=value.getId()%>"><i class="far fa-edit"></i></a>|
-        <a href="/delete/<%=value.getId()%>"><i class="far fa-trash-alt"></i></a>
+        <a href="/posts/edit/<%=value.getId()%>"><i class="far fa-edit"></i></a>|
+        <a href="/posts/delete/<%=value.getId()%>"><i class="far fa-trash-alt"></i></a>
         <%}%>
                 <security:authorize access="hasAuthority( 'admin')">
-                    <a href="/edit/<%=value.getId()%>"><i class="far fa-edit"></i></a>|
-                    <a href="/delete/<%=value.getId()%>"><i class="far fa-trash-alt"></i></a>
+                    <a href="/posts/edit/<%=value.getId()%>"><i class="far fa-edit"></i></a>|
+                    <a href="/posts/delete/<%=value.getId()%>"><i class="far fa-trash-alt"></i></a>
+
                 </security:authorize>
     </div>
 </div>
@@ -61,8 +62,8 @@
     <nav aria-label="Page navigation example">
         <ul class="pagination">
             <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-            <li class="page-item"><a class="page-link" href="/page/1">1</a></li>
-            <li class="page-item"><a class="page-link" href="/page/2">2</a></li>
+            <li class="page-item"><a class="page-link" href="?p=1">1</a></li>
+            <li class="page-item"><a class="page-link" href="?p=2">2</a></li>
             <li class="page-item"><a class="page-link" href="#">Next</a></li>
         </ul>
     </nav>

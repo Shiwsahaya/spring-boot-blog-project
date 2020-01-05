@@ -34,43 +34,24 @@ public class PostsController {
 
     private static Logger logger= LoggerFactory.getLogger(PostsController.class);
     @GetMapping(value = {"/", "/posts"})
-    public ModelAndView home() {
+    public ModelAndView home(@RequestParam(value ="p",  defaultValue = "1")Integer pageNo,
+                             @RequestParam(defaultValue = "3")Integer pageSize) {
         logger.debug("debug info");
         logger.info("insert in home");
         ModelAndView mav = new ModelAndView("result");
-        Pageable pageable = PageRequest.of(0, 3);
+        Pageable pageable = PageRequest.of(pageNo-1, pageSize);
         Page<Posts> listPost = postsService.findAllByPage(pageable);
         mav.addObject("listPost", listPost.getContent());
         return mav;
     }
 
-    @RequestMapping("/login")
-    public String loginPage() {
-        return "login";
-    }
-
-    @GetMapping("/logout-success")
-    public String logoutPage() {
-        return "redirect:/";
-    }
-
-    @RequestMapping("/page/{page-no}")
-    public ModelAndView fetchByPage(@PathVariable("page-no") int pageNo) {
-        Pageable pageable = PageRequest.of(pageNo - 1, 3);
-        ModelAndView modelAndView = new ModelAndView("result");
-        Page<Posts> allPost = postsService.findAllByPage(pageable);
-        modelAndView.addObject("listPost", allPost.getContent());
-        return modelAndView;
-    }
-
-
-    @GetMapping("/add")
+    @GetMapping("/posts/add")
     public String newPost(Map<String, Object> model) {
         model.put("posts", new Posts());
         return "new";
     }
 
-    @PostMapping(value = "/save")
+    @PostMapping(value = "/posts/save")
     public String savePost(@ModelAttribute("posts") Posts posts, @RequestParam String[] name) {
         posts.getCategories().clear();
         for (String itr : name) {
@@ -95,7 +76,7 @@ public class PostsController {
         return "redirect:/";
     }
 
-    @GetMapping("/edit/{id}")
+    @GetMapping("/posts/edit/{id}")
     public ModelAndView editPosts(@PathVariable("id") int id) {
         ModelAndView modelAndView = new ModelAndView("editPost");
         Posts posts = postsService.get(id);
@@ -103,7 +84,7 @@ public class PostsController {
         return modelAndView;
     }
 
-    @GetMapping(value = "/delete/{id}")
+    @GetMapping(value = "/posts/delete/{id}")
     public ModelAndView delete(@PathVariable("id") int id) {
         ModelAndView modelAndView = new ModelAndView("deletePost");
         Posts posts = postsService.get(id);
@@ -111,25 +92,41 @@ public class PostsController {
         return modelAndView;
     }
 
-    @PostMapping("/delete/delete-confirm")
+
+    @PostMapping("/posts/delete-confirm")
     public String deletePost(@RequestParam int id) {
         postsService.delete(id);
         return "redirect:/";
     }
 
-    @GetMapping("/published-date")
-    public ModelAndView sortByPublishDate() {
+    @RequestMapping("/login")
+    public String loginPage() {
+        return "login";
+    }
+
+    @GetMapping("/logout-success")
+    public String logoutPage() {
+        return "redirect:/";
+    }
+
+
+    @GetMapping("/posts/published-date")
+    public ModelAndView sortByPublishDate(@RequestParam(value ="p",  defaultValue = "1")Integer pageNo,
+                                          @RequestParam(defaultValue = "3")Integer pageSize) {
         ModelAndView modelAndView = new ModelAndView("result");
-        List<Posts> listPost = postsService.sortByPublishedDate();
-        modelAndView.addObject("listPost", listPost);
+        Pageable pageable = PageRequest.of(pageNo-1, pageSize);
+        Page<Posts> listPost = postsService.sortByPublishedDate(pageable);
+        modelAndView.addObject("listPost", listPost.getContent());
         return modelAndView;
     }
 
-    @GetMapping("/last-updated")
-    public ModelAndView sortByLastUpdatedDate() {
+    @GetMapping("/posts/last-updated")
+    public ModelAndView sortByLastUpdatedDate(@RequestParam(value ="p",  defaultValue = "1")Integer pageNo,
+                                              @RequestParam(defaultValue = "3")Integer pageSize) {
         ModelAndView modelAndView = new ModelAndView("result");
-        List<Posts> listPost = postsService.sortByUpLastUpdatedDate();
-        modelAndView.addObject("listPost", listPost);
+        Pageable pageable = PageRequest.of(pageNo-1, pageSize);
+        Page<Posts> listPost = postsService.sortByUpLastUpdatedDate(pageable);
+        modelAndView.addObject("listPost", listPost.getContent());
         return modelAndView;
     }
 
@@ -144,12 +141,12 @@ public class PostsController {
         return modelAndView;
     }
 
-    @RequestMapping("/filter/{categoryId}")
+    @RequestMapping("/posts/filter/{categoryId}")
     public ModelAndView filter(@PathVariable("categoryId") int categoryId) {
         List<Posts> listPost = null;
         ModelAndView modelAndView = new ModelAndView("result");
         Category category = categoryService.get(categoryId);
-        listPost = category.getPosts();
+        listPost=postsService.findByCategory(category);
         modelAndView.addObject("listPost", listPost);
         return modelAndView;
     }
@@ -173,6 +170,11 @@ public class PostsController {
         users.setRole("author");
         usersService.save(users);
         return "login";
+    }
+
+    @GetMapping(value = "/error")
+    public String defaultErrorMessage(){
+        return "error";
     }
 
 }

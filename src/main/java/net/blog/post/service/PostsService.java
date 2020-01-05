@@ -1,9 +1,11 @@
 package net.blog.post.service;
 import net.blog.post.Repository.PostsRepository;
+import net.blog.post.model.Category;
 import net.blog.post.model.Posts;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.security.core.parameters.P;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -34,12 +36,12 @@ public class PostsService {
         repo.deleteById(id);
     }
 
-    public List<Posts> sortByPublishedDate(){
-        return  repo.findAllByOrderByCreatedAtAsc();
+    public Page<Posts> sortByPublishedDate(Pageable pageable){
+        return  repo.findAllByOrderByCreatedAtAsc(pageable);
     }
 
-    public List<Posts>sortByUpLastUpdatedDate(){
-        return repo.findAllByOrderByUpdatedAtDesc();
+    public Page<Posts>sortByUpLastUpdatedDate(Pageable pageable){
+        return repo.findAllByOrderByUpdatedAtDesc(pageable);
     }
 
     public Page<Posts>findAllByPage(Pageable pageable){
@@ -47,6 +49,9 @@ public class PostsService {
     }
     public List<Posts>search(String keyword){
         return repo.search(keyword);
+    }
+    public List<Posts>findByCategory(Category category){
+        return repo.findByCategories(category);
     }
 
 }
