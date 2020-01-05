@@ -9,6 +9,7 @@
     <title>Document</title>
 </head>
 <body>
+${SPRING_SECURITY_LAST_EXCEPTION.message}
 <form action="/sign-up-success" method="post">
     Name:
     <input type="text" name="name"><br>

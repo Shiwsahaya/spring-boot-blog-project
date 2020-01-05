@@ -136,7 +136,15 @@ public class PostsController {
         logger.error("error generated");
         logger.info("search executed");
         logger.trace("search trace");
-        List<Posts> listPost = postsService.search(keyword);
+        List<Posts>listPost=null;
+        try{
+            listPost = postsService.search(keyword);
+        }
+        catch (Exception ex)
+        {
+            System.out.println("Error in Search");
+        }
+
         modelAndView.addObject("listPost", listPost);
         return modelAndView;
     }
@@ -157,11 +165,10 @@ public class PostsController {
     }
 
     @PostMapping("/sign-up-success")
-    public String singUPDone(ServletRequest request) {
+    public String singUPDone(@RequestParam(value = "name") String name,
+                             @RequestParam(value = "email") String email,
+                             @RequestParam(value = "password")String password) {
         Users users =new Users();
-        String name = request.getParameter("name");
-        String email = request.getParameter("email");
-        String password = request.getParameter("password");
         BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
         String encryptPass=passwordEncoder.encode(password);
         users.setName(name);

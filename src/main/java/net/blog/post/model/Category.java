@@ -3,6 +3,7 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 @Entity
+@Table(uniqueConstraints={@UniqueConstraint(columnNames={"name"})})
 public class Category {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

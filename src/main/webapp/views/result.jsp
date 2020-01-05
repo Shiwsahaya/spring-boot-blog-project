@@ -2,6 +2,8 @@
 <%@ page import="java.util.List" %>
 <%@ page import="org.springframework.security.core.context.SecurityContextHolder" %>
 <%@ page import="org.springframework.security.core.userdetails.UserDetails" %>
+<%@ page import="org.springframework.security.core.GrantedAuthority" %>
+<%@ page import="java.util.Collection" %>
 <%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -15,11 +17,6 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <jsp:include page="/views/navbar.jsp"/>
-
-<%--<p>User: <security:authentication property="principal.username"/>--%>
-<%--<br>--%>
-<%--    Role(s): <security:authentication property="principal.authorities"/>--%>
-<%--</p>--%>
 <security:authorize access="isAuthenticated()">
     User: <security:authentication property="principal.username" /><br>
     Role(s): <security:authentication property="principal.authorities"/>
@@ -34,6 +31,13 @@
         <p class="card-text"><%= value.getBody()%>
         </p>
         <%
+            String loginUserRole = null;
+            Collection<GrantedAuthority> authorities = (Collection<GrantedAuthority>)
+                    SecurityContextHolder.getContext().getAuthentication().getAuthorities();
+            for(GrantedAuthority authority:authorities){
+                loginUserRole=authority.getAuthority();
+            }
+
             Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
             String username;
             if (principal instanceof UserDetails) {
@@ -44,16 +48,12 @@
 
                 username = principal.toString();
             }
-
-            if (username.equals(value.getAuthorId().getName())||(value.getAuthorId().getRole().equals("admin"))) {%>
+            if (username.equals(value.getAuthorId().getName())||loginUserRole.equals("admin")) {%>
         <a href="/posts/edit/<%=value.getId()%>"><i class="far fa-edit"></i></a>|
         <a href="/posts/delete/<%=value.getId()%>"><i class="far fa-trash-alt"></i></a>
+        <%if (loginUserRole.equals("admin"))%>
+        <h6>Written By: <%=value.getAuthorId().getName()%></h6>
         <%}%>
-                <security:authorize access="hasAuthority( 'admin')">
-                    <a href="/posts/edit/<%=value.getId()%>"><i class="far fa-edit"></i></a>|
-                    <a href="/posts/delete/<%=value.getId()%>"><i class="far fa-trash-alt"></i></a>
-
-                </security:authorize>
     </div>
 </div>
 <%}%>

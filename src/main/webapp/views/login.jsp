@@ -12,10 +12,11 @@
 <div class="container">
     <form class="form-signin" method="post" action="/login">
         <h2 class="form-signin-heading">Please sign in</h2>
-<%--        <div class="alert alert-danger" role="alert">Invalid credentials</div>  <p>--%>
+        <%--        <div class="alert alert-danger" role="alert">Invalid credentials</div>  <p>--%>
+        ${SPRING_SECURITY_LAST_EXCEPTION.message}
         <label for="username" class="sr-only">Username</label>
         <input type="text" id="username" name="username" class="form-control" placeholder="Username" required autofocus>
-    </p>
+        </p>
         <p>
             <label for="password" class="sr-only">Password</label>
             <input type="password" id="password" name="password" class="form-control" placeholder="Password" required>
