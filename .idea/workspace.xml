@@ -5,6 +5,10 @@
       <change afterPath="$PROJECT_DIR$/../IPL FINAL PROJECT V3**/src/main/java/main" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../IPL FINAL PROJECT V3**/src/test/java/TestNoOfMatch.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../IPL FINAL PROJECT V3**/src/test/java/TestNoOfWonMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/Repository/PostsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/controller/PostsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/model/Posts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/service/PostsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Data-Project" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataProject/.idea/codeStyles/Project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataProject/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
@@ -346,14 +350,41 @@
       <change beforePath="$PROJECT_DIR$/../Koans/lib/src/test/java/com/sandwich/util/io/DirectoryManagerTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Koans/lib/src/test/java/com/sandwich/util/io/FileOperationTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Koans/lib/src/test/java/com/sandwich/util/io/directories/UnitTestDirectories.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoBlog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demoBlog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/spring-boot-logger.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/spring-boot-logger.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/blog/post/BlogApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/BlogApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/blog/post/controller/PostsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/controller/PostsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/blog/post/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/blog/post/model/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/model/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/result.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/signUp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/signUp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/deletePost.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deletePost.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/editPost.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editPost.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/externalLink.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/externalLink.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/filter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/filter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/navbar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/new.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/new.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/signUp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/signUp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/demoBlog.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/blog/post/BlogApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/blog/post/Repository/CategoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/blog/post/Repository/PostsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/blog/post/Repository/UsersRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/blog/post/configuration/AppSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/blog/post/controller/PostsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/blog/post/model/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/blog/post/model/Posts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/blog/post/model/UserPrincipal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/blog/post/model/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/blog/post/service/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/blog/post/service/PostsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/blog/post/service/UsersService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/net/blog/post/BlogAppTests.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ipldata/.idea/codeStyles/Project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ipldata/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ipldata/.idea/kotlinc.xml" beforeDir="false" />
@@ -452,6 +483,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/webapp/views" />
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src" />
@@ -482,7 +514,22 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2b7f3b61" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2b7f3b61" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1235d65d" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2b7f3b61" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@6809b380" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -521,6 +568,9 @@
       <workItem from="1578206124543" duration="334000" />
       <workItem from="1578206485011" duration="234000" />
       <workItem from="1578210957413" duration="10345000" />
+      <workItem from="1578309492934" duration="4118000" />
+      <workItem from="1578326518967" duration="4191000" />
+      <workItem from="1578333116519" duration="68000" />
     </task>
     <servers />
   </component>
