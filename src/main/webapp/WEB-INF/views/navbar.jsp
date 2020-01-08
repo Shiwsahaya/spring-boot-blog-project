@@ -1,5 +1,5 @@
 <%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
-<jsp:include page="/WEB-INF/views/externalLink.jsp"/>
+
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">

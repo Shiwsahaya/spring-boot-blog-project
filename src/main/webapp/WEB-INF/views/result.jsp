@@ -16,9 +16,10 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<jsp:include page="/WEB-INF/views/externalLink.jsp"/>
 <jsp:include page="/WEB-INF/views/navbar.jsp"/>
 <security:authorize access="isAuthenticated()">
-    User: <security:authentication property="principal.username" /><br>
+    User: <security:authentication property="principal.username"/><br>
     Role(s): <security:authentication property="principal.authorities"/>
 </security:authorize>
 
@@ -28,14 +29,24 @@
     <div class="card-header"><h6><%= value.getTitle()%>
     </h6></div>
     <div class="card-body">
+        <%
+            int length = value.getBody().length();
+            if (length > 100) {
+        %>
+        <p class="card-text"><%= value.getBody().substring(0, 100)%>
+            <a href="/posts/view/<%=value.getId()%>">...Read More</a>
+            <%}%>
+        </p>
+        <%if (value.getBody().length() <= 100) {%>
         <p class="card-text"><%= value.getBody()%>
+            <%}%>
         </p>
         <%
             String loginUserRole = null;
             Collection<GrantedAuthority> authorities = (Collection<GrantedAuthority>)
                     SecurityContextHolder.getContext().getAuthentication().getAuthorities();
-            for(GrantedAuthority authority:authorities){
-                loginUserRole=authority.getAuthority();
+            for (GrantedAuthority authority : authorities) {
+                loginUserRole = authority.getAuthority();
             }
 
             Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
@@ -48,11 +59,12 @@
 
                 username = principal.toString();
             }
-            if (username.equals(value.getAuthorId().getName())||loginUserRole.equals("admin")) {%>
+            if (username.equals(value.getAuthorId().getName()) || loginUserRole.equals("admin")) {%>
         <a href="/posts/edit/<%=value.getId()%>"><i class="far fa-edit"></i></a>|
         <a href="/posts/delete/<%=value.getId()%>"><i class="far fa-trash-alt"></i></a>
         <%if (loginUserRole.equals("admin"))%>
-        <h6>Written By: <%=value.getAuthorId().getName()%></h6>
+        <h6>Written By: <%=value.getAuthorId().getName()%>
+        </h6>
         <%}%>
     </div>
 </div>

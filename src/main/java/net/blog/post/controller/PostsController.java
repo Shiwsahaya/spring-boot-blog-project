@@ -183,4 +183,13 @@ public class PostsController {
         return "error";
     }
 
+    @GetMapping(value = "/posts/view/{id}")
+    public ModelAndView postView(@PathVariable("id") int id){
+        ModelAndView modelAndView=new ModelAndView("viewPost");
+        Posts posts=postsService.get(id);
+        modelAndView.addObject("viewPost",posts);
+        System.out.println(posts.getTitle());
+        return modelAndView;
+    }
+
 }
