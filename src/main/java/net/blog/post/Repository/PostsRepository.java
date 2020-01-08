@@ -17,9 +17,10 @@ public interface  PostsRepository extends JpaRepository<Posts, Integer > , Pagin
     Page<Posts>findAllByOrderByCreatedAtAsc(Pageable pageable);
     Page<Posts>findAllByOrderByUpdatedAtDesc(Pageable pageable);
 
+
     @Query(value = "SELECT t FROM Posts t WHERE " +
             "LOWER(t.title) LIKE LOWER(CONCAT('%',:keyword, '%')) OR " +
             "LOWER(t.body) LIKE LOWER(CONCAT('%',:keyword, '%'))")
-    public List<Posts> search(@Param("keyword")String keyword);
+    public Page<Posts> search(Pageable pageable,@Param("keyword")String keyword);
 
 }

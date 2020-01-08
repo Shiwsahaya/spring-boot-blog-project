@@ -5,7 +5,8 @@
       <change afterPath="$PROJECT_DIR$/../IPL FINAL PROJECT V3**/src/main/java/main" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../IPL FINAL PROJECT V3**/src/test/java/TestNoOfMatch.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../IPL FINAL PROJECT V3**/src/test/java/TestNoOfWonMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewPost.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archived/severe-logger-2020-01-06.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/model/Posts.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demoBlogREST/src/main/java/net/blog/post/service/JwtUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Data-Project" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataProject/.idea/codeStyles/Project.xml" beforeDir="false" />
@@ -348,12 +349,19 @@
       <change beforePath="$PROJECT_DIR$/../Koans/lib/src/test/java/com/sandwich/util/io/DirectoryManagerTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Koans/lib/src/test/java/com/sandwich/util/io/FileOperationTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Koans/lib/src/test/java/com/sandwich/util/io/directories/UnitTestDirectories.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d955fbc-c0fc-4c20-b429-331c40bbdfd1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d955fbc-c0fc-4c20-b429-331c40bbdfd1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/severe-logger.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/severe-logger.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/spring-boot-logger.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/spring-boot-logger.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/blog/post/Repository/PostsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/Repository/PostsRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/blog/post/controller/PostsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/controller/PostsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/blog/post/service/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/service/PostsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/filter.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/navbar.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/search.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/net/blog/post/controller/PostsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/blog/post/controller/PostsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/blog/post/service/PostsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/blog/post/service/PostsService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ipldata/.idea/codeStyles/Project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ipldata/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ipldata/.idea/kotlinc.xml" beforeDir="false" />
@@ -540,7 +548,8 @@
       <workItem from="1578399854243" duration="791000" />
       <workItem from="1578421500709" duration="1751000" />
       <workItem from="1578456653415" duration="168000" />
-      <workItem from="1578471416544" duration="5990000" />
+      <workItem from="1578471416544" duration="9671000" />
+      <workItem from="1578499657797" duration="5607000" />
     </task>
     <servers />
   </component>

@@ -5,7 +5,6 @@ import net.blog.post.model.Posts;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import org.springframework.security.core.parameters.P;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -47,9 +46,10 @@ public class PostsService {
     public Page<Posts>findAllByPage(Pageable pageable){
         return repo.findAll(pageable);
     }
-    public List<Posts>search(String keyword){
-        return repo.search(keyword);
+    public Page<Posts>search(Pageable pageable,String keyword){
+        return repo.search(pageable,keyword);
     }
+
     public List<Posts>findByCategory(Category category){
         return repo.findByCategories(category);
     }

@@ -1,4 +1,5 @@
 package net.blog.post.controller;
+
 import net.blog.post.model.Category;
 import net.blog.post.model.Posts;
 import net.blog.post.model.Users;
@@ -16,10 +17,12 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
-import java.util.List;
-import org.springframework.data.domain.Pageable;
-import java.util.Map;
 
+import java.util.List;
+
+import org.springframework.data.domain.Pageable;
+
+import java.util.Map;
 
 @Controller
 public class PostsController {
@@ -31,16 +34,43 @@ public class PostsController {
     @Autowired
     public UsersService usersService;
 
-    private static Logger logger= LoggerFactory.getLogger(PostsController.class);
+    private static Logger logger = LoggerFactory.getLogger(PostsController.class);
+
     @GetMapping(value = {"/", "/posts"})
-    public ModelAndView home(@RequestParam(value ="p",  defaultValue = "1")Integer pageNo,
-                             @RequestParam(defaultValue = "3")Integer pageSize) {
-        logger.debug("debug info");
-        logger.info("insert in home");
+    public ModelAndView home(@RequestParam(value = "p", defaultValue = "1") Integer pageNo,
+                             @RequestParam(defaultValue = "3") Integer pageSize,
+                             @RequestParam(value = "search", defaultValue = "") String keyWord,
+                             @RequestParam(value = "sort-by", defaultValue = "") String sortBy,
+                             @RequestParam(value = "filter",defaultValue = "0")int filterId) {
         ModelAndView mav = new ModelAndView("result");
-        Pageable pageable = PageRequest.of(pageNo-1, pageSize);
-        Page<Posts> listPost = postsService.findAllByPage(pageable);
-        mav.addObject("listPost", listPost.getContent());
+        if (!keyWord.equals("")) {
+            Pageable pageable = PageRequest.of(pageNo - 1, pageSize);
+            Page<Posts> listPost = postsService.search(pageable, keyWord);
+            mav.addObject("listPost", listPost.getContent());
+        }
+        else if (sortBy.equals("published-date")) {
+            Pageable pageable = PageRequest.of(pageNo - 1, pageSize);
+            Page<Posts> listPost = postsService.sortByPublishedDate(pageable);
+            mav.addObject("listPost", listPost.getContent());
+        }
+        else if (sortBy.equals("last-updated")) {
+            Pageable pageable = PageRequest.of(pageNo - 1, pageSize);
+            Page<Posts> listPost = postsService.sortByUpLastUpdatedDate(pageable);
+            mav.addObject("listPost", listPost.getContent());
+        }
+        else if(filterId!=0){
+            List<Posts> listPost = null;
+            Category category = categoryService.get(filterId);
+            listPost = postsService.findByCategory(category);
+            mav.addObject("listPost", listPost);
+        }
+        else {
+            logger.debug("debug info");
+            logger.info("insert in home");
+            Pageable pageable = PageRequest.of(pageNo - 1, pageSize);
+            Page<Posts> listPost = postsService.findAllByPage(pageable);
+            mav.addObject("listPost", listPost.getContent());
+        }
         return mav;
     }
 
@@ -68,7 +98,7 @@ public class PostsController {
             username = principal.toString();
         }
 
-        Users users=usersService.findByName(username);
+        Users users = usersService.findByName(username);
         posts.setAuthorId(users);
         users.getPosts().add(posts);
         postsService.save(posts);
@@ -107,57 +137,6 @@ public class PostsController {
     public String logoutPage() {
         return "redirect:/";
     }
-
-
-    @GetMapping("/posts/published-date")
-    public ModelAndView sortByPublishDate(@RequestParam(value ="p",  defaultValue = "1")Integer pageNo,
-                                          @RequestParam(defaultValue = "3")Integer pageSize) {
-        ModelAndView modelAndView = new ModelAndView("result");
-        Pageable pageable = PageRequest.of(pageNo-1, pageSize);
-        Page<Posts> listPost = postsService.sortByPublishedDate(pageable);
-        modelAndView.addObject("listPost", listPost.getContent());
-        return modelAndView;
-    }
-
-    @GetMapping("/posts/last-updated")
-    public ModelAndView sortByLastUpdatedDate(@RequestParam(value ="p",  defaultValue = "1")Integer pageNo,
-                                              @RequestParam(defaultValue = "3")Integer pageSize) {
-        ModelAndView modelAndView = new ModelAndView("result");
-        Pageable pageable = PageRequest.of(pageNo-1, pageSize);
-        Page<Posts> listPost = postsService.sortByUpLastUpdatedDate(pageable);
-        modelAndView.addObject("listPost", listPost.getContent());
-        return modelAndView;
-    }
-
-    @GetMapping("/posts/search")
-    public ModelAndView search(@RequestParam String keyword) {
-        ModelAndView modelAndView = new ModelAndView("result");
-        logger.error("error generated");
-        logger.info("search executed");
-        logger.trace("search trace");
-        List<Posts>listPost=null;
-        try{
-            listPost = postsService.search(keyword);
-        }
-        catch (Exception ex)
-        {
-            System.out.println("Error in Search");
-        }
-
-        modelAndView.addObject("listPost", listPost);
-        return modelAndView;
-    }
-
-    @RequestMapping("/posts/filter/{categoryId}")
-    public ModelAndView filter(@PathVariable("categoryId") int categoryId) {
-        List<Posts> listPost = null;
-        ModelAndView modelAndView = new ModelAndView("result");
-        Category category = categoryService.get(categoryId);
-        listPost=postsService.findByCategory(category);
-        modelAndView.addObject("listPost", listPost);
-        return modelAndView;
-    }
-
     @GetMapping("/sign-up")
     public String signUp() {
         return "signUp";
@@ -166,10 +145,10 @@ public class PostsController {
     @PostMapping("/sign-up-success")
     public String singUPDone(@RequestParam(value = "name") String name,
                              @RequestParam(value = "email") String email,
-                             @RequestParam(value = "password")String password) {
-        Users users =new Users();
+                             @RequestParam(value = "password") String password) {
+        Users users = new Users();
         BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
-        String encryptPass=passwordEncoder.encode(password);
+        String encryptPass = passwordEncoder.encode(password);
         users.setName(name);
         users.setEmail(email);
         users.setPassword(encryptPass);
@@ -179,15 +158,15 @@ public class PostsController {
     }
 
     @GetMapping(value = "/error")
-    public String defaultErrorMessage(){
+    public String defaultErrorMessage() {
         return "error";
     }
 
     @GetMapping(value = "/posts/view/{id}")
-    public ModelAndView postView(@PathVariable("id") int id){
-        ModelAndView modelAndView=new ModelAndView("viewPost");
-        Posts posts=postsService.get(id);
-        modelAndView.addObject("viewPost",posts);
+    public ModelAndView postView(@PathVariable("id") int id) {
+        ModelAndView modelAndView = new ModelAndView("viewPost");
+        Posts posts = postsService.get(id);
+        modelAndView.addObject("viewPost", posts);
         System.out.println(posts.getTitle());
         return modelAndView;
     }
