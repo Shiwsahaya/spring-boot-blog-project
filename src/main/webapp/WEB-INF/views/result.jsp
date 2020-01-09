@@ -70,7 +70,6 @@
 </div>
 <%}%>
 
-<%if (results.size()>3)%>
 <div style="text-align: center;  margin-left: 40%; margin-top: 1%">
     <nav aria-label="Page navigation example">
         <ul class="pagination">

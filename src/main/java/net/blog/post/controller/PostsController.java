@@ -1,5 +1,6 @@
 package net.blog.post.controller;
 
+import net.blog.post.exception.PostNotFoundException;
 import net.blog.post.model.Category;
 import net.blog.post.model.Posts;
 import net.blog.post.model.Users;
@@ -41,34 +42,36 @@ public class PostsController {
                              @RequestParam(defaultValue = "3") Integer pageSize,
                              @RequestParam(value = "search", defaultValue = "") String keyWord,
                              @RequestParam(value = "sort-by", defaultValue = "") String sortBy,
-                             @RequestParam(value = "filter",defaultValue = "0")int filterId) {
+                             @RequestParam(value = "filter", defaultValue = "0") int filterId) {
         ModelAndView mav = new ModelAndView("result");
         if (!keyWord.equals("")) {
             Pageable pageable = PageRequest.of(pageNo - 1, pageSize);
             Page<Posts> listPost = postsService.search(pageable, keyWord);
+            if (listPost.getContent().size() == 0)
+                throw new PostNotFoundException("Sorry, we couldn't find any results for: " + keyWord);
             mav.addObject("listPost", listPost.getContent());
-        }
-        else if (sortBy.equals("published-date")) {
+        } else if (sortBy.equals("published-date")) {
             Pageable pageable = PageRequest.of(pageNo - 1, pageSize);
             Page<Posts> listPost = postsService.sortByPublishedDate(pageable);
             mav.addObject("listPost", listPost.getContent());
-        }
-        else if (sortBy.equals("last-updated")) {
+        } else if (sortBy.equals("last-updated")) {
             Pageable pageable = PageRequest.of(pageNo - 1, pageSize);
             Page<Posts> listPost = postsService.sortByUpLastUpdatedDate(pageable);
             mav.addObject("listPost", listPost.getContent());
-        }
-        else if(filterId!=0){
-            List<Posts> listPost = null;
+        } else if (filterId != 0) {
+            Pageable pageable = PageRequest.of(pageNo - 1, pageSize);
             Category category = categoryService.get(filterId);
-            listPost = postsService.findByCategory(category);
-            mav.addObject("listPost", listPost);
-        }
-        else {
+            Page<Posts> listPost = postsService.findByCategory(pageable,category);
+            if (listPost.getContent().size()== 0)
+                throw new PostNotFoundException("Sorry, we couldn't find any results for this filter: " + category.getName());
+            mav.addObject("listPost", listPost.getContent());
+        } else {
             logger.debug("debug info");
             logger.info("insert in home");
             Pageable pageable = PageRequest.of(pageNo - 1, pageSize);
             Page<Posts> listPost = postsService.findAllByPage(pageable);
+            if (listPost==null)
+                throw new RuntimeException("Something Went Wrong");
             mav.addObject("listPost", listPost.getContent());
         }
         return mav;
@@ -137,6 +140,7 @@ public class PostsController {
     public String logoutPage() {
         return "redirect:/";
     }
+
     @GetMapping("/sign-up")
     public String signUp() {
         return "signUp";
@@ -169,6 +173,15 @@ public class PostsController {
         modelAndView.addObject("viewPost", posts);
         System.out.println(posts.getTitle());
         return modelAndView;
+    }
+
+    //    @RequestMapping(value = "/exc")
+//    public String check(){
+//        throw new RuntimeException("post not found");
+//    }
+    @RequestMapping(value = "/exc")
+    public String check() {
+        throw new PostNotFoundException("Posts not found");
     }
 
 }

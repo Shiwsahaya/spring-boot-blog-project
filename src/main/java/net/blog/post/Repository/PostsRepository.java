@@ -12,7 +12,7 @@ public interface  PostsRepository extends JpaRepository<Posts, Integer > , Pagin
 //    List<Posts>findAllByOrderByUpdatedAtDesc();
 
     //pagination
-    List<Posts>findByCategories(Category category);
+    Page<Posts>findByCategories(Pageable pageable,Category category);
     Page<Posts>findAll(Pageable pageable);
     Page<Posts>findAllByOrderByCreatedAtAsc(Pageable pageable);
     Page<Posts>findAllByOrderByUpdatedAtDesc(Pageable pageable);

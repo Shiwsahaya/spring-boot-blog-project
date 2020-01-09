@@ -50,8 +50,8 @@ public class PostsService {
         return repo.search(pageable,keyword);
     }
 
-    public List<Posts>findByCategory(Category category){
-        return repo.findByCategories(category);
+    public Page<Posts>findByCategory(Pageable pageable,Category category){
+        return repo.findByCategories(pageable,category);
     }
 
 }
