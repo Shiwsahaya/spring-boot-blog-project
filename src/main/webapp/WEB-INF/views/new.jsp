@@ -23,16 +23,16 @@
 
     <h4>Choose Category</h4>
     <div class="form-group form-check">
-        <input type="checkbox" class="form-check-input" id="tech-checkbox" name="name" value="1">
+        <input type="checkbox" class="form-check-input" id="tech-checkbox" name="name" value="Technology">
         <label class="form-check-label" for="tech-checkbox">Technology</label><br>
 
-        <input type="checkbox" class="form-check-input" id="science-checkbox" name="name" value="2">
+        <input type="checkbox" class="form-check-input" id="science-checkbox" name="name" value="Science">
         <label class="form-check-label" for="science-checkbox">Science</label><br>
 
-        <input type="checkbox" class="form-check-input" id="nature-checkbox" name="name" value="3">
+        <input type="checkbox" class="form-check-input" id="nature-checkbox" name="name" value="Nature">
         <label class="form-check-label" for="nature-checkbox">Nature</label><br>
 
-        <input type="checkbox" class="form-check-input" id="space-checkbox" name="name" value="4">
+        <input type="checkbox" class="form-check-input" id="space-checkbox" name="name" value="Space">
         <label class="form-check-label" for="space-checkbox">Space</label><br>
     </div>
 

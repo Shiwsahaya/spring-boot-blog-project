@@ -1,5 +1,4 @@
 package net.blog.post.controller;
-
 import net.blog.post.exception.PostNotFoundException;
 import net.blog.post.model.Category;
 import net.blog.post.model.Posts;
@@ -18,11 +17,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
-
-import java.util.List;
-
 import org.springframework.data.domain.Pageable;
-
 import java.util.Map;
 
 @Controller
@@ -35,45 +30,61 @@ public class PostsController {
     @Autowired
     public UsersService usersService;
 
-    private static Logger logger = LoggerFactory.getLogger(PostsController.class);
+    private static Logger LOGGER = LoggerFactory.getLogger(PostsController.class);
 
     @GetMapping(value = {"/", "/posts"})
     public ModelAndView home(@RequestParam(value = "p", defaultValue = "1") Integer pageNo,
                              @RequestParam(defaultValue = "3") Integer pageSize,
                              @RequestParam(value = "search", defaultValue = "") String keyWord,
                              @RequestParam(value = "sort-by", defaultValue = "") String sortBy,
-                             @RequestParam(value = "filter", defaultValue = "0") int filterId) {
+                             @RequestParam(value = "filter", defaultValue = "") String filterName) {
+        LOGGER.info("Sending URL is working");
         ModelAndView mav = new ModelAndView("result");
         if (!keyWord.equals("")) {
+            LOGGER.info("Insert in search controller");
             Pageable pageable = PageRequest.of(pageNo - 1, pageSize);
             Page<Posts> listPost = postsService.search(pageable, keyWord);
+            LOGGER.info("After searching result");
             if (listPost.getContent().size() == 0)
                 throw new PostNotFoundException("Sorry, we couldn't find any results for: " + keyWord);
             mav.addObject("listPost", listPost.getContent());
+            LOGGER.info("Searching work properly");
         } else if (sortBy.equals("published-date")) {
+            LOGGER.info("Insert in published-date controller");
             Pageable pageable = PageRequest.of(pageNo - 1, pageSize);
             Page<Posts> listPost = postsService.sortByPublishedDate(pageable);
+            LOGGER.info("After getting result of published date");
             mav.addObject("listPost", listPost.getContent());
+            LOGGER.info("published-date work successfully");
         } else if (sortBy.equals("last-updated")) {
+            LOGGER.info("Insert into last-update controller");
             Pageable pageable = PageRequest.of(pageNo - 1, pageSize);
             Page<Posts> listPost = postsService.sortByUpLastUpdatedDate(pageable);
+            LOGGER.info("after getting result of last updated");
             mav.addObject("listPost", listPost.getContent());
-        } else if (filterId != 0) {
+            LOGGER.info("last updated work successfully");
+        } else if (!filterName.equals("")) {
+            LOGGER.info("Insert in Filter Controller");
             Pageable pageable = PageRequest.of(pageNo - 1, pageSize);
-            Category category = categoryService.get(filterId);
-            Page<Posts> listPost = postsService.findByCategory(pageable,category);
-            if (listPost.getContent().size()== 0)
+            Category category = categoryService.get(filterName);
+            LOGGER.info("after getting category");
+            Page<Posts> listPost = postsService.findByCategory(pageable, category);
+            LOGGER.info("after getting filter result");
+            if (listPost.getContent().size() == 0)
                 throw new PostNotFoundException("Sorry, we couldn't find any results for this filter: " + category.getName());
             mav.addObject("listPost", listPost.getContent());
+            LOGGER.info("filter work successfully");
         } else {
-            logger.debug("debug info");
-            logger.info("insert in home");
+            LOGGER.info("insert in home controller");
             Pageable pageable = PageRequest.of(pageNo - 1, pageSize);
             Page<Posts> listPost = postsService.findAllByPage(pageable);
-            if (listPost==null)
+            LOGGER.info("after getting result from home controller");
+            if (listPost == null)
                 throw new RuntimeException("Something Went Wrong");
             mav.addObject("listPost", listPost.getContent());
+            LOGGER.info("home controller work successfully");
         }
+        LOGGER.info("Before returning of results");
         return mav;
     }
 
@@ -87,7 +98,7 @@ public class PostsController {
     public String savePost(@ModelAttribute("posts") Posts posts, @RequestParam String[] name) {
         posts.getCategories().clear();
         for (String itr : name) {
-            Category category = categoryService.get(Integer.parseInt(itr));
+            Category category = categoryService.get(itr);
             posts.getCategories().add(category);
         }
         Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
@@ -173,15 +184,6 @@ public class PostsController {
         modelAndView.addObject("viewPost", posts);
         System.out.println(posts.getTitle());
         return modelAndView;
-    }
-
-    //    @RequestMapping(value = "/exc")
-//    public String check(){
-//        throw new RuntimeException("post not found");
-//    }
-    @RequestMapping(value = "/exc")
-    public String check() {
-        throw new PostNotFoundException("Posts not found");
     }
 
 }

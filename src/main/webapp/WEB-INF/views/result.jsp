@@ -4,6 +4,7 @@
 <%@ page import="org.springframework.security.core.userdetails.UserDetails" %>
 <%@ page import="org.springframework.security.core.GrantedAuthority" %>
 <%@ page import="java.util.Collection" %>
+<%@ page import="net.blog.post.model.Category" %>
 <%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -27,7 +28,13 @@
 <% for (Posts value : results) {%>
 <div class="card bg-light mb-3" style="max-width: 40rem; margin: 1% auto; float: none; text-align: center">
     <div class="card-header"><h6><%= value.getTitle()%>
-    </h6></div>
+        <%
+            List<Category> categories = value.getCategories();
+            for (Category category : categories) {%>
+        <span style="font-size: 12px"> #<%=category.getName()%></span>
+        <%}%></h6>
+
+    </div>
     <div class="card-body">
         <%
             int length = value.getBody().length();

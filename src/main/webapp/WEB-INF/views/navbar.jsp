@@ -29,10 +29,10 @@
                     Filter
                 </a>
                 <div class="dropdown-menu" aria-labelledby="filterDropdown">
-                    <a class="dropdown-item" href="/posts/?filter=1">Technology</a>
-                    <a class="dropdown-item" href="/posts/?filter=2">Science</a>
-                    <a class="dropdown-item" href="/posts/?filter=3">Nature</a>
-                    <a class="dropdown-item" href="/posts/?filter=4">Space</a>
+                    <a class="dropdown-item" href="/posts/?filter=Technology">Technology</a>
+                    <a class="dropdown-item" href="/posts/?filter=Science">Science</a>
+                    <a class="dropdown-item" href="/posts/?filter=Nature">Nature</a>
+                    <a class="dropdown-item" href="/posts/?filter=Space">Space</a>
                 </div>
             </li>
         </ul>

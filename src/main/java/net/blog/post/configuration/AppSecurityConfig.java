@@ -38,6 +38,7 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
                     .antMatchers("/").permitAll()
                     .antMatchers("/edit/**").authenticated()
                     .antMatchers("/delete/**").authenticated()
+                    .antMatchers("/add/**").authenticated()
                     .and()
                     .formLogin()
                     .loginPage("/login").permitAll()

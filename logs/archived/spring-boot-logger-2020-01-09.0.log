@@ -1,0 +1,1286 @@
+2020-01-08 00:00:10,143 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 31661 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 00:00:10,157 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 00:00:10,158 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 00:00:12,974 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.169 seconds (JVM running for 3.612)
+2020-01-08 00:00:31,070 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 00:00:31,070 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 00:00:32,165 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 00:00:32,165 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 00:00:47,565 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 00:00:47,566 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 00:00:50,140 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-08 00:00:50,141 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-08 00:00:52,646 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-08 00:00:52,696 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-08 00:02:11,344 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 31898 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 00:02:11,345 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 00:02:11,345 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 00:02:13,978 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.925 seconds (JVM running for 3.356)
+2020-01-08 00:02:19,151 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 00:02:19,152 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 00:02:27,887 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 00:02:27,887 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 00:02:30,653 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 00:02:30,653 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 00:02:39,486 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-08 00:02:39,486 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-08 00:03:02,514 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-9] debug info
+2020-01-08 00:03:02,515 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] insert in home
+2020-01-08 00:03:41,571 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 32072 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 00:03:41,573 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 00:03:41,573 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 00:03:44,198 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.922 seconds (JVM running for 3.363)
+2020-01-08 00:03:48,146 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 00:03:48,146 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 00:03:59,064 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 00:03:59,065 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 00:04:13,930 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-08 00:04:13,931 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-08 00:04:14,169 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-08 00:04:14,169 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-08 00:05:01,733 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 32386 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 00:05:01,734 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 00:05:01,735 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 00:05:04,279 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.845 seconds (JVM running for 3.288)
+2020-01-08 00:05:09,743 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 00:05:09,744 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 00:05:25,206 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 32527 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 00:05:25,207 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 00:05:25,208 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 00:05:27,796 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.886 seconds (JVM running for 3.326)
+2020-01-08 00:05:29,684 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 00:05:29,685 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 00:05:50,527 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 32673 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 00:05:50,528 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 00:05:50,528 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 00:05:53,098 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.85 seconds (JVM running for 3.295)
+2020-01-08 00:05:56,411 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 00:05:56,412 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 00:08:29,560 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 921 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 00:08:29,561 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 00:08:29,562 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 00:08:32,160 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.894 seconds (JVM running for 3.304)
+2020-01-08 00:08:40,586 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 00:08:40,586 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 00:13:27,023 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 1262 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 00:13:27,025 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 00:13:27,025 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 00:13:29,634 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.888 seconds (JVM running for 3.325)
+2020-01-08 00:13:34,356 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 00:13:34,356 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 00:13:43,348 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 00:13:43,348 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 15:14:38,211 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 27501 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 15:14:38,228 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 15:14:38,228 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 15:14:41,216 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.399 seconds (JVM running for 3.89)
+2020-01-08 15:14:50,049 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 15:14:50,050 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 15:14:51,278 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 15:14:51,278 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 15:15:22,012 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-08 15:15:22,013 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-08 15:15:29,388 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-9] debug info
+2020-01-08 15:15:29,389 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] insert in home
+2020-01-08 15:15:30,712 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-10] debug info
+2020-01-08 15:15:30,713 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] insert in home
+2020-01-08 15:15:31,084 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 15:15:31,086 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 15:15:32,373 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 15:15:32,375 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 15:18:09,892 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 27816 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 15:18:09,893 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 15:18:09,893 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 15:18:12,475 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.881 seconds (JVM running for 3.306)
+2020-01-08 15:18:16,191 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 15:18:16,192 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 15:18:25,396 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 15:18:25,396 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 15:18:29,289 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-08 15:18:29,291 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-08 15:28:36,597 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 28174 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 15:28:36,598 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 15:28:36,599 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 15:28:39,195 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.891 seconds (JVM running for 3.329)
+2020-01-08 15:28:47,305 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 15:28:47,306 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 15:30:13,566 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 28355 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 15:30:13,567 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 15:30:13,567 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 15:30:16,175 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.91 seconds (JVM running for 3.363)
+2020-01-08 15:30:19,555 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 15:30:19,556 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 15:30:22,380 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 15:30:22,382 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 15:30:23,948 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 15:30:23,949 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 15:30:24,951 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 15:30:24,952 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 15:30:25,759 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-08 15:30:25,761 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-08 15:30:25,841 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-08 15:30:25,841 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-08 15:30:26,134 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-08 15:30:26,135 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-08 15:30:26,259 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-8] debug info
+2020-01-08 15:30:26,259 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home
+2020-01-08 15:32:17,385 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 28545 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 15:32:17,387 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 15:32:17,387 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 15:32:19,997 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.895 seconds (JVM running for 3.382)
+2020-01-08 15:32:23,143 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 15:32:23,144 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 15:33:27,424 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 28938 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 15:33:27,426 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 15:33:27,426 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 15:33:29,978 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.863 seconds (JVM running for 3.388)
+2020-01-08 15:33:33,347 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 15:33:33,348 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 15:33:35,766 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 15:33:35,775 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 15:33:36,576 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 15:33:36,577 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 15:34:00,567 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 29086 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 15:34:00,568 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 15:34:00,569 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 15:34:03,238 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.975 seconds (JVM running for 3.423)
+2020-01-08 15:34:04,440 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 15:34:04,441 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 15:34:27,406 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 29218 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 15:34:27,408 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 15:34:27,409 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 15:34:30,360 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.266 seconds (JVM running for 3.717)
+2020-01-08 15:34:33,439 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 15:34:33,440 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 15:34:36,097 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 15:34:36,097 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 15:34:38,833 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 15:34:38,835 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 15:40:09,029 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 29651 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 15:40:09,030 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 15:40:09,031 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 15:40:11,622 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.878 seconds (JVM running for 3.364)
+2020-01-08 15:40:15,652 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 15:40:15,653 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 15:40:17,952 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 15:40:17,954 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 15:40:21,099 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 15:40:21,099 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 15:40:22,896 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 15:40:22,896 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 15:42:19,991 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 29870 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 15:42:19,992 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 15:42:19,993 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 15:42:22,684 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.017 seconds (JVM running for 3.464)
+2020-01-08 15:42:26,703 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 15:42:26,704 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 15:44:11,650 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 30051 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 15:44:11,651 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 15:44:11,652 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 15:44:14,191 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.857 seconds (JVM running for 3.289)
+2020-01-08 15:44:17,558 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 15:44:17,559 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 15:44:20,856 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 15:44:20,857 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 15:47:10,223 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 30300 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 15:47:10,224 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 15:47:10,225 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 15:47:12,827 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.919 seconds (JVM running for 3.348)
+2020-01-08 15:47:17,905 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 15:47:17,906 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 15:50:34,794 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 30552 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 15:50:34,795 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 15:50:34,796 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 15:50:37,394 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.92 seconds (JVM running for 3.376)
+2020-01-08 15:50:45,131 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 15:50:45,132 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 15:50:49,253 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 15:50:49,255 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 15:50:59,378 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 15:50:59,379 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 15:56:36,808 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 30910 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 15:56:36,810 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 15:56:36,810 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 15:56:39,428 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.945 seconds (JVM running for 3.437)
+2020-01-08 15:56:44,264 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 15:56:44,265 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 15:56:49,172 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 15:56:49,172 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 15:56:53,422 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 15:56:53,422 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 15:57:46,292 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 31071 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 15:57:46,293 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 15:57:46,293 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 15:57:49,183 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.196 seconds (JVM running for 3.632)
+2020-01-08 15:57:49,293 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 15:57:49,294 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 15:57:52,573 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 15:57:52,574 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 15:58:39,842 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 31261 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 15:58:39,843 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 15:58:39,844 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 15:58:42,464 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.935 seconds (JVM running for 3.361)
+2020-01-08 15:58:45,749 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 15:58:45,750 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 15:58:49,835 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 15:58:49,835 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 15:58:50,241 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 15:58:50,241 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 15:59:32,491 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 31435 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 15:59:32,492 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 15:59:32,492 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 15:59:35,033 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.841 seconds (JVM running for 3.284)
+2020-01-08 15:59:38,364 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 15:59:38,365 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 16:00:30,076 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 31605 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 16:00:30,077 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 16:00:30,077 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 16:00:32,646 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.85 seconds (JVM running for 3.251)
+2020-01-08 16:00:36,627 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 16:00:36,628 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 16:00:40,614 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 16:00:40,615 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 16:00:46,123 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 16:00:46,124 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 16:02:26,501 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 31778 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 16:02:26,502 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 16:02:26,503 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 16:02:29,092 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.897 seconds (JVM running for 3.338)
+2020-01-08 16:02:38,027 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 16:02:38,029 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 16:02:51,769 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 16:02:51,769 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 16:02:52,042 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-08 16:02:52,043 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-08 16:02:54,725 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-08 16:02:54,726 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-08 16:02:59,334 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-8] debug info
+2020-01-08 16:02:59,335 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home
+2020-01-08 16:12:07,287 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 16:12:07,288 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 16:13:40,503 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 32286 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 16:13:40,504 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 16:13:40,505 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 16:13:43,148 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.937 seconds (JVM running for 3.389)
+2020-01-08 16:13:46,769 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 16:13:46,770 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 16:13:51,071 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 16:13:51,071 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 16:14:42,946 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 32443 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 16:14:42,948 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 16:14:42,948 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 16:14:45,824 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.205 seconds (JVM running for 3.69)
+2020-01-08 16:14:50,256 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 16:14:50,257 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 16:18:07,559 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 32681 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 16:18:07,560 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 16:18:07,561 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 16:18:10,221 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.962 seconds (JVM running for 3.435)
+2020-01-08 16:18:16,713 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 16:18:16,716 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 16:18:17,935 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 16:18:17,937 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 16:19:11,037 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 391 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 16:19:11,038 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 16:19:11,038 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 16:19:13,603 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.854 seconds (JVM running for 3.324)
+2020-01-08 16:19:19,125 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 16:19:19,126 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 16:19:21,295 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 16:19:21,296 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 16:20:11,127 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 573 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 16:20:11,128 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 16:20:11,132 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 16:20:13,772 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.964 seconds (JVM running for 3.422)
+2020-01-08 16:20:41,435 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 720 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 16:20:41,437 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 16:20:41,437 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 16:20:44,093 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.961 seconds (JVM running for 3.397)
+2020-01-08 16:21:01,282 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 16:21:01,283 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 16:22:13,365 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 1017 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 16:22:13,366 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 16:22:13,367 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 16:22:16,090 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.03 seconds (JVM running for 3.505)
+2020-01-08 16:22:21,135 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 16:22:21,136 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 16:22:25,224 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 16:22:25,225 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 16:22:54,017 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 1204 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 16:22:54,018 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 16:22:54,018 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 16:22:56,677 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.975 seconds (JVM running for 3.44)
+2020-01-08 16:23:18,591 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 1353 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 16:23:18,592 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 16:23:18,592 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 16:23:21,179 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.928 seconds (JVM running for 3.419)
+2020-01-08 16:23:24,356 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 16:23:24,357 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 16:23:48,420 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 1489 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 16:23:48,422 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 16:23:48,422 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 16:23:51,067 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.976 seconds (JVM running for 3.462)
+2020-01-08 16:23:54,862 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 16:23:54,863 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 16:24:24,988 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 1639 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 16:24:24,989 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 16:24:24,990 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 16:24:27,622 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.938 seconds (JVM running for 3.411)
+2020-01-08 16:24:30,797 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 16:24:30,798 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 16:24:36,074 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 16:24:36,076 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 16:24:41,560 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-08 16:24:41,561 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-08 16:24:52,715 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-9] debug info
+2020-01-08 16:24:52,716 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] insert in home
+2020-01-08 16:24:57,083 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-10] debug info
+2020-01-08 16:24:57,084 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] insert in home
+2020-01-08 16:25:03,699 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 16:25:03,700 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 16:25:08,561 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-08 16:25:08,562 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-08 16:28:22,903 ERROR net.blog.post.controller.PostsController [http-nio-8081-exec-2] error generated
+2020-01-08 16:28:23,010 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] search executed
+2020-01-08 16:28:23,011 TRACE net.blog.post.controller.PostsController [http-nio-8081-exec-2] search trace
+2020-01-08 16:28:41,890 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 1960 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 16:28:41,891 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 16:28:41,891 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 16:28:44,525 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.958 seconds (JVM running for 3.466)
+2020-01-08 16:28:48,282 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 16:28:48,283 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 16:29:00,420 ERROR net.blog.post.controller.PostsController [http-nio-8081-exec-5] error generated
+2020-01-08 16:29:00,421 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] search executed
+2020-01-08 16:29:00,421 TRACE net.blog.post.controller.PostsController [http-nio-8081-exec-5] search trace
+2020-01-08 16:29:07,962 ERROR net.blog.post.controller.PostsController [http-nio-8081-exec-7] error generated
+2020-01-08 16:29:07,963 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] search executed
+2020-01-08 16:29:07,963 TRACE net.blog.post.controller.PostsController [http-nio-8081-exec-7] search trace
+2020-01-08 16:29:13,910 ERROR net.blog.post.controller.PostsController [http-nio-8081-exec-10] error generated
+2020-01-08 16:29:13,910 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] search executed
+2020-01-08 16:29:13,911 TRACE net.blog.post.controller.PostsController [http-nio-8081-exec-10] search trace
+2020-01-08 16:29:21,338 ERROR net.blog.post.controller.PostsController [http-nio-8081-exec-1] error generated
+2020-01-08 16:29:21,338 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] search executed
+2020-01-08 16:29:21,339 TRACE net.blog.post.controller.PostsController [http-nio-8081-exec-1] search trace
+2020-01-08 16:29:26,197 ERROR net.blog.post.controller.PostsController [http-nio-8081-exec-4] error generated
+2020-01-08 16:29:26,197 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] search executed
+2020-01-08 16:29:26,197 TRACE net.blog.post.controller.PostsController [http-nio-8081-exec-4] search trace
+2020-01-08 16:29:31,924 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-08 16:29:31,925 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-08 16:32:09,748 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 2187 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 16:32:09,750 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 16:32:09,750 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 16:32:12,352 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.882 seconds (JVM running for 3.317)
+2020-01-08 16:32:15,549 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 16:32:15,549 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 16:33:06,523 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 16:33:06,523 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 16:33:18,143 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-08 16:33:18,144 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-08 16:34:20,676 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-9] debug info
+2020-01-08 16:34:20,677 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] insert in home
+2020-01-08 16:34:28,141 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-10] debug info
+2020-01-08 16:34:28,141 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] insert in home
+2020-01-08 16:34:39,283 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 16:34:39,285 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 16:34:45,311 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-08 16:34:45,312 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-08 16:34:51,941 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-08 16:34:51,942 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-08 16:34:58,852 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-8] debug info
+2020-01-08 16:34:58,853 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home
+2020-01-08 16:35:01,763 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 16:35:01,764 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 17:29:14,660 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 17:29:14,661 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 17:29:14,802 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-08 17:29:14,802 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-08 17:31:18,260 ERROR net.blog.post.controller.PostsController [http-nio-8081-exec-9] error generated
+2020-01-08 17:31:18,261 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] search executed
+2020-01-08 17:31:18,262 TRACE net.blog.post.controller.PostsController [http-nio-8081-exec-9] search trace
+2020-01-08 17:31:45,382 ERROR net.blog.post.controller.PostsController [http-nio-8081-exec-3] error generated
+2020-01-08 17:31:45,385 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] search executed
+2020-01-08 17:31:45,386 TRACE net.blog.post.controller.PostsController [http-nio-8081-exec-3] search trace
+2020-01-08 17:31:56,441 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-08 17:31:56,442 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-08 17:32:05,979 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-08 17:32:05,979 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-08 17:33:34,572 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-10] debug info
+2020-01-08 17:33:34,572 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] insert in home
+2020-01-08 17:33:37,818 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 17:33:37,819 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 17:33:45,193 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-08 17:33:45,194 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-08 17:39:38,486 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-10] debug info
+2020-01-08 17:39:38,487 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] insert in home
+2020-01-08 17:40:02,596 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 17:40:02,596 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 17:42:22,072 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-08 17:42:22,073 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-08 17:47:36,732 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 7339 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 17:47:36,734 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 17:47:36,735 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 17:47:39,320 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.911 seconds (JVM running for 3.359)
+2020-01-08 17:47:42,365 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 17:47:42,366 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 17:47:46,463 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 17:47:46,463 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 17:47:48,594 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 17:47:48,606 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 21:45:06,602 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 16044 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 21:45:06,633 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 21:45:06,634 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 21:45:14,209 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 8.98 seconds (JVM running for 10.328)
+2020-01-08 21:45:16,899 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 21:45:16,900 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 21:45:17,893 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 21:45:17,893 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 21:45:43,140 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 21:45:43,140 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 21:46:06,853 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-08 21:46:06,854 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-08 21:50:56,273 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 16631 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 21:50:56,274 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 21:50:56,275 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 21:50:58,821 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.844 seconds (JVM running for 3.284)
+2020-01-08 21:51:05,012 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 21:51:05,013 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 21:52:12,821 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 21:52:12,822 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 21:52:14,972 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-08 21:52:14,973 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-08 21:52:17,964 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-08 21:52:17,964 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-08 21:52:35,733 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-10] debug info
+2020-01-08 21:52:35,734 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] insert in home
+2020-01-08 21:53:28,888 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 21:53:28,888 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 21:54:23,065 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 16857 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 21:54:23,066 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 21:54:23,067 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 21:54:25,644 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.866 seconds (JVM running for 3.339)
+2020-01-08 21:54:29,968 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 21:54:29,968 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 21:54:42,191 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 21:54:42,192 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 21:55:17,022 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 17039 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 21:55:17,024 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 21:55:17,025 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 21:55:19,598 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.882 seconds (JVM running for 3.34)
+2020-01-08 21:55:23,165 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 21:55:23,166 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 21:55:47,614 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 21:55:47,615 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 21:57:05,775 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-08 21:57:05,775 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-08 21:57:15,512 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-9] debug info
+2020-01-08 21:57:15,513 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] insert in home
+2020-01-08 21:57:29,129 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 21:57:29,129 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 21:58:37,228 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 17344 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 21:58:37,229 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 21:58:37,229 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 21:58:39,782 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.85 seconds (JVM running for 3.302)
+2020-01-08 21:58:43,272 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 21:58:43,272 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 21:59:22,381 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-08 21:59:22,383 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-08 22:00:10,437 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 17555 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:00:10,438 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:00:10,438 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:00:12,975 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.815 seconds (JVM running for 3.315)
+2020-01-08 22:00:16,911 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:00:16,912 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:00:20,106 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 22:00:20,108 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 22:00:41,230 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-08 22:00:41,231 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-08 22:01:03,135 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 17722 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:01:03,136 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:01:03,137 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:01:05,727 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.879 seconds (JVM running for 3.337)
+2020-01-08 22:01:07,973 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:01:07,974 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:01:12,431 ERROR net.blog.post.controller.PostsController [http-nio-8081-exec-2] error generated
+2020-01-08 22:01:12,433 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] search executed
+2020-01-08 22:01:12,434 TRACE net.blog.post.controller.PostsController [http-nio-8081-exec-2] search trace
+2020-01-08 22:01:42,595 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 17881 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:01:42,596 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:01:42,596 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:01:45,148 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.87 seconds (JVM running for 3.284)
+2020-01-08 22:01:48,573 ERROR net.blog.post.controller.PostsController [http-nio-8081-exec-1] error generated
+2020-01-08 22:01:48,574 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] search executed
+2020-01-08 22:01:48,574 TRACE net.blog.post.controller.PostsController [http-nio-8081-exec-1] search trace
+2020-01-08 22:01:53,337 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 22:01:53,338 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 22:01:59,034 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-08 22:01:59,036 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-08 22:04:34,246 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-8] debug info
+2020-01-08 22:04:34,247 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home
+2020-01-08 22:04:37,369 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-9] debug info
+2020-01-08 22:04:37,369 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] insert in home
+2020-01-08 22:04:44,760 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:04:44,760 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:06:17,147 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 22:06:17,148 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 22:06:17,315 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-08 22:06:17,315 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-08 22:07:15,268 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 18205 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:07:15,269 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:07:15,270 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:07:17,868 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.891 seconds (JVM running for 3.336)
+2020-01-08 22:07:24,699 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:07:24,699 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:07:29,204 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 22:07:29,204 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 22:13:24,869 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 18684 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:13:24,871 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:13:24,871 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:13:27,458 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.893 seconds (JVM running for 3.332)
+2020-01-08 22:13:32,648 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:13:32,649 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:15:01,181 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-08 22:15:01,183 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-08 22:21:39,288 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 19091 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:21:39,290 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:21:39,290 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:21:41,846 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.87 seconds (JVM running for 3.314)
+2020-01-08 22:21:45,329 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:21:45,330 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:21:59,584 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-08 22:21:59,586 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-08 22:22:47,495 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 19240 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:22:47,496 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:22:47,497 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:22:50,074 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.884 seconds (JVM running for 3.365)
+2020-01-08 22:22:52,664 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:22:52,664 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:22:54,330 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 22:22:54,331 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 22:29:51,827 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:29:51,828 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:30:12,612 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 22:30:12,613 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 22:30:22,925 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-08 22:30:22,926 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-08 22:31:35,402 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 19489 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:31:35,403 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:31:35,403 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:31:37,953 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.844 seconds (JVM running for 3.269)
+2020-01-08 22:31:43,344 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:31:43,345 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:32:24,610 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-08 22:32:24,610 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-08 22:36:23,071 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 19790 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:36:23,072 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:36:23,073 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:36:25,657 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.875 seconds (JVM running for 3.28)
+2020-01-08 22:36:33,707 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:36:33,707 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:37:38,542 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-08 22:37:38,543 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-08 22:37:40,196 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-08 22:37:40,197 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-08 22:37:46,121 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-8] debug info
+2020-01-08 22:37:46,122 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home
+2020-01-08 22:37:58,060 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-10] debug info
+2020-01-08 22:37:58,061 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] insert in home
+2020-01-08 22:38:54,600 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 19968 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:38:54,601 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:38:54,602 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:38:57,187 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.856 seconds (JVM running for 3.344)
+2020-01-08 22:39:11,578 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 22:39:11,580 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 22:39:26,304 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-08 22:39:26,305 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-08 22:41:03,927 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 20142 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:41:03,928 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:41:03,929 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:41:06,502 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.867 seconds (JVM running for 3.299)
+2020-01-08 22:41:10,043 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:41:10,044 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:41:11,860 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 22:41:11,861 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 22:42:24,715 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 20301 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:42:24,717 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:42:24,717 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:42:27,306 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.865 seconds (JVM running for 3.313)
+2020-01-08 22:42:32,573 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:42:32,573 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:42:36,697 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 22:42:36,698 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 22:42:52,906 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-08 22:42:52,907 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-08 22:43:23,721 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 20493 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:43:23,722 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:43:23,723 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:43:26,262 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.853 seconds (JVM running for 3.325)
+2020-01-08 22:43:37,599 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:43:37,600 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:45:22,085 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 20720 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:45:22,086 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:45:22,087 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:45:24,723 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.916 seconds (JVM running for 3.339)
+2020-01-08 22:45:30,338 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:45:30,339 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:46:21,094 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 22:46:21,094 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 22:46:31,720 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-08 22:46:31,720 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-08 22:46:56,649 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 20890 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:46:56,650 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:46:56,650 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:46:59,269 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.914 seconds (JVM running for 3.472)
+2020-01-08 22:47:03,752 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:47:03,753 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:47:33,265 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 22:47:33,265 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 22:47:33,924 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-08 22:47:33,925 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-08 22:48:14,385 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 21114 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:48:14,386 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:48:14,387 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:48:16,974 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.9 seconds (JVM running for 3.302)
+2020-01-08 22:48:25,195 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:48:25,196 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:48:52,051 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 21252 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:48:52,052 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:48:52,052 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:48:54,653 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.922 seconds (JVM running for 3.322)
+2020-01-08 22:49:00,083 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:49:00,083 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:50:09,962 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 21400 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:50:09,963 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:50:09,963 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:50:12,784 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.138 seconds (JVM running for 3.583)
+2020-01-08 22:50:16,281 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:50:16,282 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:52:11,814 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 21570 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:52:11,816 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:52:11,816 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:52:14,386 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.89 seconds (JVM running for 3.322)
+2020-01-08 22:52:21,274 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:52:21,274 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:52:32,405 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-08 22:52:32,406 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-08 22:52:35,183 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 22:52:35,184 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 22:53:47,746 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 21736 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:53:47,747 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:53:47,748 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:53:50,312 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.864 seconds (JVM running for 3.291)
+2020-01-08 22:53:53,606 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:53:53,607 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:53:55,266 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 22:53:55,267 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 22:54:47,043 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 21883 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:54:47,045 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:54:47,045 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:54:49,611 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.864 seconds (JVM running for 3.276)
+2020-01-08 22:54:55,073 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:54:55,074 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:54:55,498 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 22:54:55,499 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 22:55:36,083 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-08 22:55:36,084 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-08 22:55:37,771 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 22:55:37,771 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 22:55:49,910 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-08 22:55:49,910 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-08 22:55:52,094 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-8] debug info
+2020-01-08 22:55:52,095 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home
+2020-01-08 22:55:54,500 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-9] debug info
+2020-01-08 22:55:54,501 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] insert in home
+2020-01-08 22:55:56,602 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 22:55:56,603 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 22:56:00,563 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 22:56:00,563 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 22:56:59,794 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 22075 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 22:56:59,795 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 22:56:59,796 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 22:57:02,367 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.876 seconds (JVM running for 3.332)
+2020-01-08 22:57:05,682 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 22:57:05,683 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 22:57:07,555 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 22:57:07,556 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 22:57:19,527 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-08 22:57:19,528 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-08 23:00:48,432 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 22270 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 23:00:48,434 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 23:00:48,434 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 23:00:50,983 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.853 seconds (JVM running for 3.273)
+2020-01-08 23:00:56,409 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 23:00:56,410 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 23:00:57,810 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 23:00:57,811 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 23:07:00,641 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 22516 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 23:07:00,643 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 23:07:00,644 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 23:07:03,189 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.831 seconds (JVM running for 3.252)
+2020-01-08 23:07:09,328 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 23:07:09,329 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 23:07:15,046 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 23:07:15,048 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 23:07:27,728 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-08 23:07:27,729 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-08 23:07:46,581 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-10] debug info
+2020-01-08 23:07:46,582 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] insert in home
+2020-01-08 23:07:46,726 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 23:07:46,728 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 23:09:14,790 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 22779 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 23:09:14,791 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 23:09:14,792 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 23:09:17,368 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.905 seconds (JVM running for 3.372)
+2020-01-08 23:09:20,389 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 23:09:20,390 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 23:09:25,150 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 23:09:25,151 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 23:09:29,066 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-08 23:09:29,067 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-08 23:09:33,188 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-08 23:09:33,188 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-08 23:10:34,600 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 23:10:34,601 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-08 23:11:23,011 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 23201 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 23:11:23,012 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 23:11:23,013 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 23:11:25,601 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.89 seconds (JVM running for 3.337)
+2020-01-08 23:11:29,219 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 23:11:29,220 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 23:11:37,191 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 23:11:37,191 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 23:11:42,788 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-08 23:11:42,788 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-08 23:11:47,904 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-9] debug info
+2020-01-08 23:11:47,905 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] insert in home
+2020-01-08 23:11:53,983 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-08 23:11:53,983 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-08 23:11:58,704 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 23:11:58,704 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 23:12:02,682 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-08 23:12:02,683 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-08 23:12:09,960 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-10] debug info
+2020-01-08 23:12:09,960 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] insert in home
+2020-01-08 23:12:17,838 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-08 23:12:17,838 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-08 23:12:29,026 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-8] debug info
+2020-01-08 23:12:29,027 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home
+2020-01-08 23:12:32,974 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-10] debug info
+2020-01-08 23:12:32,975 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] insert in home
+2020-01-08 23:12:34,061 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-08 23:12:34,062 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-08 23:13:23,011 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 23371 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-08 23:13:23,012 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-08 23:13:23,013 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 23:13:25,656 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.973 seconds (JVM running for 3.404)
+2020-01-08 23:13:28,230 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-08 23:13:28,230 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-09 00:10:15,608 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 27022 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 00:10:15,609 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 00:10:15,610 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 00:10:18,551 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.242 seconds (JVM running for 3.679)
+2020-01-09 00:10:28,453 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-09 00:10:28,454 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-09 00:10:40,041 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-09 00:10:40,042 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-09 00:10:56,677 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-9] debug info
+2020-01-09 00:10:56,678 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] insert in home
+2020-01-09 00:11:03,100 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-09 00:11:03,101 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-09 00:12:47,376 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-09 00:12:47,376 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-09 09:38:32,571 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 12853 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 09:38:32,604 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 09:38:32,605 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 09:38:40,350 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 8.935 seconds (JVM running for 10.715)
+2020-01-09 09:38:43,899 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-09 09:38:43,899 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-09 09:38:45,291 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-09 09:38:45,291 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-09 09:38:55,578 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-09 09:38:55,579 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-09 09:38:58,769 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-09 09:38:58,769 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-09 09:44:24,688 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-9] debug info
+2020-01-09 09:44:24,688 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] insert in home
+2020-01-09 09:45:43,391 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 14081 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 09:45:43,392 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 09:45:43,393 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 09:45:46,022 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.93 seconds (JVM running for 3.396)
+2020-01-09 09:46:01,280 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-09 09:46:01,281 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-09 09:46:04,851 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-09 09:46:04,851 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-09 09:46:09,479 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-09 09:46:09,480 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-09 09:46:14,058 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-09 09:46:14,058 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-09 09:46:27,052 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 14243 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 09:46:27,053 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 09:46:27,053 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 09:46:29,651 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.88 seconds (JVM running for 3.382)
+2020-01-09 09:48:45,053 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 14506 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 09:48:45,054 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 09:48:45,054 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 09:48:47,631 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.874 seconds (JVM running for 3.315)
+2020-01-09 09:48:53,527 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-09 09:48:53,528 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-09 09:48:55,511 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-09 09:48:55,511 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-09 09:48:59,694 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-09 09:48:59,695 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-09 09:49:02,275 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-09 09:49:02,275 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-09 09:49:03,581 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-09 09:49:03,582 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-09 09:49:06,027 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-09 09:49:06,027 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-09 09:49:09,885 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-9] debug info
+2020-01-09 09:49:09,885 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] insert in home
+2020-01-09 09:49:13,890 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-09 09:49:13,890 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-09 09:49:23,191 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-09 09:49:23,192 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-09 09:49:49,721 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-09 09:49:49,721 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-09 09:49:54,086 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-09 09:49:54,126 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-09 09:49:55,880 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-8] debug info
+2020-01-09 09:49:55,880 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home
+2020-01-09 09:50:27,765 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-10] debug info
+2020-01-09 09:50:27,766 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] insert in home
+2020-01-09 09:50:31,623 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-09 09:50:31,623 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-09 09:50:34,589 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-09 09:50:34,589 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-09 09:51:28,979 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 14880 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 09:51:28,980 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 09:51:28,980 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 09:51:31,609 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.926 seconds (JVM running for 3.363)
+2020-01-09 09:51:35,832 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-09 09:51:35,834 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-09 09:51:36,578 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-09 09:51:36,580 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-09 09:51:37,639 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-09 09:51:37,640 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-09 09:51:47,054 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-09 09:51:47,055 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-09 09:52:26,419 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-09 09:52:26,420 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-09 09:52:29,179 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-09 09:52:29,180 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-09 09:52:29,559 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-09 09:52:29,560 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-09 09:52:43,078 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-09 09:52:43,079 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-09 09:53:23,657 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-10] debug info
+2020-01-09 09:53:23,658 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] insert in home
+2020-01-09 09:57:15,084 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-09 09:57:15,086 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-09 09:57:36,694 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 15205 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 09:57:36,695 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 09:57:36,695 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 09:57:39,358 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.956 seconds (JVM running for 3.438)
+2020-01-09 09:57:46,728 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-09 09:57:46,729 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-09 09:57:48,905 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-09 09:57:48,906 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-09 10:06:24,548 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 15627 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 10:06:24,549 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 10:06:24,550 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 10:06:27,320 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.079 seconds (JVM running for 3.569)
+2020-01-09 10:15:19,446 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-09 10:15:19,447 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-09 10:15:21,338 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-8] debug info
+2020-01-09 10:15:21,339 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home
+2020-01-09 10:15:23,099 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-9] debug info
+2020-01-09 10:15:23,101 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] insert in home
+2020-01-09 10:24:13,498 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-09 10:24:13,499 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-09 10:26:17,569 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-09 10:26:17,570 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-09 10:40:32,540 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-09 10:40:32,541 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-09 10:40:50,324 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-09 10:40:50,325 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-09 11:37:33,785 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 22183 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 11:37:33,796 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 11:37:33,797 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 11:37:37,331 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.915 seconds (JVM running for 4.436)
+2020-01-09 11:37:54,371 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-09 11:37:54,372 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-09 11:37:58,337 ERROR net.blog.post.exception.ExceptionController [http-nio-8081-exec-2] request http://localhost:8081/excThrew an Exception
+java.lang.RuntimeException: dummy exception
+	at net.blog.post.controller.PostsController.check(PostsController.java:175)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-01-09 11:40:40,264 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 22443 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 11:40:40,265 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 11:40:40,266 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 11:40:42,976 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.011 seconds (JVM running for 3.504)
+2020-01-09 11:40:48,258 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-09 11:40:48,259 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-09 11:40:54,724 ERROR net.blog.post.exception.ExceptionController [http-nio-8081-exec-2] request http://localhost:8081/excThrew an Exception
+java.lang.RuntimeException: dummy exception
+	at net.blog.post.controller.PostsController.check(PostsController.java:175)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-01-09 12:12:14,363 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 24701 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 12:12:14,372 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 12:12:14,373 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 12:12:20,027 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 6.558 seconds (JVM running for 7.284)
+2020-01-09 12:12:59,135 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 24876 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 12:12:59,137 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 12:12:59,137 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 12:13:01,754 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.883 seconds (JVM running for 3.307)
+2020-01-09 12:16:03,669 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 25502 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 12:16:03,670 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 12:16:03,670 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 12:16:06,265 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.901 seconds (JVM running for 3.326)
+2020-01-09 12:16:44,629 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 25641 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 12:16:44,630 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 12:16:44,630 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 12:16:47,313 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.012 seconds (JVM running for 3.562)
+2020-01-09 12:18:12,759 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 25967 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 12:18:12,761 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 12:18:12,762 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 12:18:15,479 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.03 seconds (JVM running for 3.569)
+2020-01-09 12:18:39,080 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 26118 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 12:18:39,081 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 12:18:39,081 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 12:18:41,713 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.929 seconds (JVM running for 3.371)
+2020-01-09 12:20:41,999 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 26365 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 12:20:42,000 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 12:20:42,000 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 12:20:44,648 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.935 seconds (JVM running for 3.349)
+2020-01-09 12:21:40,907 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 26513 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 12:21:40,908 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 12:21:40,909 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 12:21:43,491 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.874 seconds (JVM running for 3.332)
+2020-01-09 12:22:21,102 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 26694 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 12:22:21,103 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 12:22:21,104 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 12:22:23,707 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.889 seconds (JVM running for 3.366)
+2020-01-09 12:22:29,614 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-09 12:22:29,617 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-09 12:27:34,396 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 27107 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 12:27:34,397 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 12:27:34,398 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 12:27:37,034 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.91 seconds (JVM running for 3.342)
+2020-01-09 12:27:42,978 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-09 12:27:42,978 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-09 12:29:18,519 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 27309 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 12:29:18,520 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 12:29:18,520 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 12:29:21,176 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.939 seconds (JVM running for 3.36)
+2020-01-09 12:35:30,668 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 27932 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 12:35:30,669 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 12:35:30,670 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 12:35:33,393 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.038 seconds (JVM running for 3.515)
+2020-01-09 12:38:53,442 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 28292 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 12:38:53,443 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 12:38:53,444 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 12:38:56,055 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.921 seconds (JVM running for 3.348)
+2020-01-09 12:39:00,867 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-09 12:39:00,867 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-09 12:39:02,447 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-09 12:39:02,449 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-09 12:40:29,452 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 28489 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 12:40:29,453 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 12:40:29,454 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 12:40:32,128 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.953 seconds (JVM running for 3.403)
+2020-01-09 12:40:42,768 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-09 12:40:42,769 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-09 12:40:43,904 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-09 12:40:43,905 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-09 12:42:40,683 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 28741 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 12:42:40,685 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 12:42:40,685 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 12:42:43,334 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.958 seconds (JVM running for 3.371)
+2020-01-09 12:42:47,252 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-09 12:42:47,253 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-09 12:42:58,977 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-09 12:42:58,978 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-09 12:44:28,592 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 28999 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 12:44:28,593 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 12:44:28,594 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 12:44:31,300 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.999 seconds (JVM running for 3.398)
+2020-01-09 12:44:45,666 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-09 12:44:45,666 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-09 12:48:04,356 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 29454 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 12:48:04,357 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 12:48:04,358 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 12:48:07,015 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.96 seconds (JVM running for 3.4)
+2020-01-09 12:48:08,837 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-09 12:48:08,838 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-09 12:48:09,254 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-09 12:48:09,255 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-09 12:48:25,664 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-09 12:48:25,664 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-09 12:50:37,508 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 29702 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 12:50:37,509 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 12:50:37,510 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 12:50:40,518 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.311 seconds (JVM running for 3.756)
+2020-01-09 12:50:43,951 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-09 12:50:43,952 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-09 12:51:03,132 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-9] debug info
+2020-01-09 12:51:03,133 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] insert in home
+2020-01-09 12:52:24,328 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 29942 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 12:52:24,329 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 12:52:24,329 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 12:52:26,951 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.925 seconds (JVM running for 3.446)
+2020-01-09 12:52:55,913 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-09 12:52:55,914 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-09 12:53:02,086 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-09 12:53:02,087 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-09 12:53:05,856 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-09 12:53:05,857 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-09 12:53:24,426 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-10] debug info
+2020-01-09 12:53:24,426 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] insert in home
+2020-01-09 12:53:53,888 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-8] debug info
+2020-01-09 12:53:53,888 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home
+2020-01-09 12:54:17,590 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-09 12:54:17,592 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-09 12:54:33,166 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-09 12:54:33,167 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-09 12:55:02,060 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-10] debug info
+2020-01-09 12:55:02,061 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] insert in home
+2020-01-09 13:49:10,057 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-9] debug info
+2020-01-09 13:49:10,058 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] insert in home
+2020-01-09 14:00:26,129 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 31045 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 14:00:26,130 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 14:00:26,131 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 14:00:28,761 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.942 seconds (JVM running for 3.389)
+2020-01-09 14:00:39,073 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-09 14:00:39,075 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-09 14:00:43,135 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-09 14:00:43,136 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-09 14:01:11,281 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-09 14:01:11,281 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-09 14:01:27,198 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-7] debug info
+2020-01-09 14:01:27,199 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home
+2020-01-09 14:01:37,360 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-9] debug info
+2020-01-09 14:01:37,361 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] insert in home
+2020-01-09 14:02:30,839 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 31257 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 14:02:30,840 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 14:02:30,841 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 14:02:33,455 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.924 seconds (JVM running for 3.335)
+2020-01-09 14:04:34,221 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 31448 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 14:04:34,223 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 14:04:34,223 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 14:04:36,832 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.926 seconds (JVM running for 3.38)
+2020-01-09 14:05:34,014 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 31652 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 14:05:34,016 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 14:05:34,016 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 14:05:36,651 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.943 seconds (JVM running for 3.409)
+2020-01-09 14:14:52,976 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 32225 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 14:14:52,977 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 14:14:52,978 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 14:14:55,665 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.006 seconds (JVM running for 3.46)
+2020-01-09 14:15:02,969 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-09 14:15:02,969 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-09 14:15:15,605 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-09 14:15:15,606 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-09 14:15:20,831 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-09 14:15:20,833 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-09 14:15:25,217 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-8] debug info
+2020-01-09 14:15:25,218 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home
+2020-01-09 14:15:28,846 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-10] debug info
+2020-01-09 14:15:28,846 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] insert in home
+2020-01-09 22:28:16,760 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 22153 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 22:28:16,782 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 22:28:16,783 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 22:28:24,248 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 8.774 seconds (JVM running for 9.976)
+2020-01-09 23:35:11,078 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 28744 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 23:35:11,079 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 23:35:11,080 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 23:35:13,739 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.963 seconds (JVM running for 3.399)
+2020-01-09 23:35:23,241 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-09 23:35:23,241 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
+2020-01-09 23:35:24,204 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug info
+2020-01-09 23:35:24,205 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home
+2020-01-09 23:35:37,616 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-09 23:35:37,616 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-09 23:36:07,408 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-9] debug info
+2020-01-09 23:36:07,409 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] insert in home
+2020-01-09 23:36:48,403 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-3] debug info
+2020-01-09 23:36:48,404 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home
+2020-01-09 23:36:56,835 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-09 23:36:56,835 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-09 23:37:13,879 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-4] debug info
+2020-01-09 23:37:13,881 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home
+2020-01-09 23:37:22,862 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-8] debug info
+2020-01-09 23:37:22,863 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home
+2020-01-09 23:46:45,111 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-5] debug info
+2020-01-09 23:46:45,112 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home
+2020-01-09 23:46:51,321 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-6] debug info
+2020-01-09 23:46:51,322 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home
+2020-01-09 23:46:53,397 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-8] debug info
+2020-01-09 23:46:53,398 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home
+2020-01-09 23:51:38,163 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 29535 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-09 23:51:38,166 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-09 23:51:38,167 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-09 23:51:42,398 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 4.816 seconds (JVM running for 5.725)
+2020-01-09 23:51:47,621 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-1] debug info
+2020-01-09 23:51:47,623 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home
