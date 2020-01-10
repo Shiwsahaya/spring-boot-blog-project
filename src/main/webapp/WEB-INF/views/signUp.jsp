@@ -10,6 +10,10 @@
 </head>
 <body>
 ${SPRING_SECURITY_LAST_EXCEPTION.message}
+<p>
+    ${param.message}
+</p>
+
 <form action="/sign-up-success" method="post">
     Name:
     <input type="text" name="name"><br>
@@ -17,6 +21,8 @@ ${SPRING_SECURITY_LAST_EXCEPTION.message}
     <input type="email" name="email"><br>
     Password:
     <input type="password" name="password"><br>
+    Confirm Password:
+    <input type="password" name="confirmPassword"/><br>
     <input type="submit" value="Sign Up">
 </form>
 </table>

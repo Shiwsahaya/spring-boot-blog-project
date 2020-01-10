@@ -14,8 +14,8 @@
         <h2 class="form-signin-heading">Please sign in</h2>
                 <div class="alert alert-danger" role="alert">${SPRING_SECURITY_LAST_EXCEPTION.message}</div>  <p>
 
-        <label for="username" class="sr-only">Username</label>
-        <input type="text" id="username" name="username" class="form-control" placeholder="Username" required autofocus>
+        <label for="email" class="sr-only">Username</label>
+        <input type="email" id="email" name="email" class="form-control" placeholder="Username" required autofocus>
         </p>
         <p>
             <label for="password" class="sr-only">Password</label>

@@ -160,8 +160,13 @@ public class PostsController {
     @PostMapping("/sign-up-success")
     public String singUPDone(@RequestParam(value = "name") String name,
                              @RequestParam(value = "email") String email,
-                             @RequestParam(value = "password") String password) {
+                             @RequestParam(value = "password") String password,
+                             @RequestParam(value = "confirmPassword")String confirmPassword){
         Users users = new Users();
+        if(!password.equals(confirmPassword))
+        {
+            return "redirect:sign-up?wrong password";
+        }
         BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
         String encryptPass = passwordEncoder.encode(password);
         users.setName(name);

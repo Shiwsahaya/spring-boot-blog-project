@@ -57,16 +57,17 @@
             }
 
             Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-            String username;
+            String userEmail;
             if (principal instanceof UserDetails) {
 
-                username = ((UserDetails) principal).getUsername();
+                userEmail = ((UserDetails) principal).getUsername();
+//                System.out.println(username);
 
             } else {
 
-                username = principal.toString();
+                userEmail = principal.toString();
             }
-            if (username.equals(value.getAuthorId().getName()) || loginUserRole.equals("admin")) {%>
+            if (userEmail.equals(value.getAuthorId().getEmail()) || loginUserRole.equals("admin")) {%>
         <a href="/posts/edit/<%=value.getId()%>"><i class="far fa-edit"></i></a>|
         <a href="/posts/delete/<%=value.getId()%>"><i class="far fa-trash-alt"></i></a>
         <%if (loginUserRole.equals("admin"))%>

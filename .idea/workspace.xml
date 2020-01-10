@@ -5,10 +5,8 @@
       <change afterPath="$PROJECT_DIR$/../IPL FINAL PROJECT V3**/src/main/java/main" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../IPL FINAL PROJECT V3**/src/test/java/TestNoOfMatch.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../IPL FINAL PROJECT V3**/src/test/java/TestNoOfWonMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/Repository/PostsRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/controller/PostsController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/model/Posts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/service/PostsService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demoBlogREST/src/main/java/net/blog/post/service/JwtUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Data-Project" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataProject/.idea/codeStyles/Project.xml" beforeDir="false" />
@@ -352,21 +350,21 @@
       <change beforePath="$PROJECT_DIR$/../Koans/lib/src/test/java/com/sandwich/util/io/FileOperationTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Koans/lib/src/test/java/com/sandwich/util/io/directories/UnitTestDirectories.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d955fbc-c0fc-4c20-b429-331c40bbdfd1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d955fbc-c0fc-4c20-b429-331c40bbdfd1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d955fbc-c0fc-4c20-b429-331c40bbdfd1/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d955fbc-c0fc-4c20-b429-331c40bbdfd1/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/spring-boot-logger.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/spring-boot-logger.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/blog/post/Repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/Repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/blog/post/Repository/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/Repository/UsersRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/blog/post/configuration/AppSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/configuration/AppSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/blog/post/controller/PostsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/controller/PostsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/blog/post/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/blog/post/service/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/service/PostsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/navbar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/new.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/new.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/blog/post/model/UserPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/model/UserPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/blog/post/model/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/model/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/blog/post/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/blog/post/service/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/blog/post/Repository/CategoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/blog/post/Repository/CategoryRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/signUp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/signUp.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/net/blog/post/configuration/AppSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/blog/post/configuration/AppSecurityConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/net/blog/post/controller/PostsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/blog/post/controller/PostsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/blog/post/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/blog/post/service/CategoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/blog/post/service/PostsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/blog/post/service/PostsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/blog/post/service/UsersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/blog/post/service/UsersService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ipldata/.idea/codeStyles/Project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ipldata/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ipldata/.idea/kotlinc.xml" beforeDir="false" />
@@ -455,7 +453,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/net/blog/post" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demoBlogREST" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -500,12 +498,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d7b0b62e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@93a15743" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d7b0b62e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@3b8ac18e" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@93a15743" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@56f3f0d6" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />

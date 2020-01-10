@@ -38,8 +38,8 @@ public class UsersService implements UserDetailsService {
     }
 
     @Override
-    public UserDetails loadUserByUsername(String name) throws UsernameNotFoundException {
-        Users users = usersRepo.findByName(name);
+    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
+        Users users = usersRepo.findByEmail(email);
         if (users == null)
             throw new UsernameNotFoundException("User 404");
         return new UserPrincipal(users);

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(uniqueConstraints={@UniqueConstraint(columnNames={"name"})})
+@Table(uniqueConstraints={@UniqueConstraint(columnNames={"email"})})
 public class Users {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
