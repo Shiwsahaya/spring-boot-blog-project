@@ -29,9 +29,7 @@ public class PostsController {
     public CategoryService categoryService;
     @Autowired
     public UsersService usersService;
-
     private static Logger LOGGER = LoggerFactory.getLogger(PostsController.class);
-
     @GetMapping(value = {"/", "/posts"})
     public ModelAndView home(@RequestParam(value = "p", defaultValue = "1") Integer pageNo,
                              @RequestParam(defaultValue = "3") Integer pageSize,
@@ -171,7 +169,6 @@ public class PostsController {
         usersService.save(users);
         return "login";
     }
-
     @GetMapping(value = "/error")
     public String defaultErrorMessage() {
         return "error";
@@ -187,3 +184,4 @@ public class PostsController {
     }
 
 }
+
