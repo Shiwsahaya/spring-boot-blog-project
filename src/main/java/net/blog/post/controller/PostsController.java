@@ -29,13 +29,17 @@ public class PostsController {
     public CategoryService categoryService;
     @Autowired
     public UsersService usersService;
+
     private static Logger LOGGER = LoggerFactory.getLogger(PostsController.class);
+
     @GetMapping(value = {"/", "/posts"})
     public ModelAndView home(@RequestParam(value = "p", defaultValue = "1") Integer pageNo,
                              @RequestParam(defaultValue = "3") Integer pageSize,
                              @RequestParam(value = "search", defaultValue = "") String keyWord,
                              @RequestParam(value = "sort-by", defaultValue = "") String sortBy,
                              @RequestParam(value = "filter", defaultValue = "") String filterName) {
+        System.out.println("insert in home comtnroller" +
+                "");
         LOGGER.info("Sending URL is working");
         ModelAndView mav = new ModelAndView("result");
         if (!keyWord.equals("")) {
@@ -77,6 +81,7 @@ public class PostsController {
             Pageable pageable = PageRequest.of(pageNo - 1, pageSize);
             Page<Posts> listPost = postsService.findAllByPage(pageable);
             LOGGER.info("after getting result from home controller");
+            System.out.println(listPost.getContent().size()+" size post");
             if (listPost == null)
                 throw new RuntimeException("Something Went Wrong");
             mav.addObject("listPost", listPost.getContent());
@@ -94,6 +99,8 @@ public class PostsController {
 
     @PostMapping(value = "/posts/save")
     public String savePost(@ModelAttribute("posts") Posts posts, @RequestParam String[] name) {
+        System.out.println(posts.getId()+" for edit");
+        System.out.println("enter in edit");
         posts.getCategories().clear();
         for (String itr : name) {
             Category category = categoryService.get(itr);
@@ -169,6 +176,7 @@ public class PostsController {
         usersService.save(users);
         return "login";
     }
+
     @GetMapping(value = "/error")
     public String defaultErrorMessage() {
         return "error";
@@ -184,4 +192,3 @@ public class PostsController {
     }
 
 }
-

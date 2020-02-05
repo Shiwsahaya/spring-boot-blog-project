@@ -14,7 +14,7 @@ public class ExceptionController {
     }
     @ExceptionHandler(value = Exception.class)
     public ModelAndView handleException(Exception exc){
-        System.out.println("enter in main exceptin");
+        System.out.println("enter in main exception");
         ModelAndView modelAndView=new ModelAndView("exception");
         PostsErrorResponse errorResponse=new PostsErrorResponse(exc.getMessage());
         modelAndView.addObject("exceptionMessage",errorResponse);

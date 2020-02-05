@@ -14,17 +14,17 @@
 </head>
 <body>
 <p>User: <security:authentication property="principal.username"/>
-<br>
+    <br>
     Role(s): <security:authentication property="principal.authorities"/>
 </p>
 <form:form action="/posts/save" method="post" modelAttribute="posts">
 
     <tr>
             <%--@elvariable id="category" type="java"--%>
-        <input type="checkbox" name="name" value="1"/>Technology
-        <input type="checkbox" name="name" value="2"/>Science
-        <input type="checkbox" name="name" value="3"/>Nature
-        <input type="checkbox" name="name" value="4"/>Space
+        <input type="checkbox" name="name" value="Technology"/>Technology
+        <input type="checkbox" name="name" value="Science"/>Science
+        <input type="checkbox" name="name" value="Nature"/>Nature
+        <input type="checkbox" name="name" value="Space"/>Space
     </tr>
     <table border="0" cellpadding="5">
         <tr>

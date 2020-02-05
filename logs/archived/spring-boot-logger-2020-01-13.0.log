@@ -1,0 +1,909 @@
+2020-01-10 00:03:35,001 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-9] debug info
+2020-01-10 00:03:35,004 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] insert in home
+2020-01-10 09:57:30,308 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 18536 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 09:57:30,326 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 09:57:30,327 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 09:57:38,737 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 9.636 seconds (JVM running for 11.574)
+2020-01-10 11:11:19,269 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 22926 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 11:11:19,312 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 11:11:19,312 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 11:11:28,564 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 11.375 seconds (JVM running for 14.241)
+2020-01-10 11:11:44,661 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Insert in home but not inside any controller
+2020-01-10 11:11:44,662 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 11:11:44,862 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 11:11:44,862 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 11:11:44,863 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 11:11:45,709 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Insert in home but not inside any controller
+2020-01-10 11:11:45,709 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home controller
+2020-01-10 11:11:45,717 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting result from home controller
+2020-01-10 11:11:45,717 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] home controller work successfully
+2020-01-10 11:11:45,718 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Before returning of results
+2020-01-10 11:12:12,428 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Insert in home but not inside any controller
+2020-01-10 11:12:12,429 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Insert in search controller
+2020-01-10 11:12:12,574 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] After searching result
+2020-01-10 11:12:12,574 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Searching work properly
+2020-01-10 11:12:12,574 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Before returning of results
+2020-01-10 11:12:35,560 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 23195 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 11:12:35,562 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 11:12:35,563 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 11:12:38,332 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.081 seconds (JVM running for 3.572)
+2020-01-10 11:12:50,131 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Insert in home but not inside any controller
+2020-01-10 11:12:50,132 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 11:12:50,184 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 11:12:50,184 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 11:12:50,184 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 11:13:07,903 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Insert in home but not inside any controller
+2020-01-10 11:13:07,904 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Insert in search controller
+2020-01-10 11:13:07,915 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] After searching result
+2020-01-10 11:13:07,915 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Searching work properly
+2020-01-10 11:13:07,915 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Before returning of results
+2020-01-10 11:17:22,750 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 23499 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 11:17:22,751 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 11:17:22,751 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 11:17:25,423 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.955 seconds (JVM running for 3.395)
+2020-01-10 11:17:37,130 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 11:17:37,131 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 11:17:37,181 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 11:17:37,182 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 11:17:37,182 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 11:17:45,724 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-10 11:17:45,725 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Insert in search controller
+2020-01-10 11:17:45,725 DEBUG net.blog.post.controller.PostsController [http-nio-8081-exec-2] debug log showing
+2020-01-10 11:17:45,736 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] After searching result
+2020-01-10 11:17:45,736 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Searching work properly
+2020-01-10 11:17:45,736 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Before returning of results
+2020-01-10 12:43:48,756 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 29141 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 12:43:48,757 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 12:43:48,758 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 12:43:51,413 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.933 seconds (JVM running for 3.419)
+2020-01-10 12:44:00,209 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 12:44:00,210 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 12:44:00,262 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 12:44:00,263 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 12:44:00,263 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 12:44:00,660 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-10 12:44:00,660 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home controller
+2020-01-10 12:44:00,665 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting result from home controller
+2020-01-10 12:44:00,665 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] home controller work successfully
+2020-01-10 12:44:00,665 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Before returning of results
+2020-01-10 12:44:14,791 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Sending URL is working
+2020-01-10 12:44:14,791 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home controller
+2020-01-10 12:44:14,795 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] after getting result from home controller
+2020-01-10 12:44:14,796 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] home controller work successfully
+2020-01-10 12:44:14,796 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Before returning of results
+2020-01-10 12:44:27,793 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Sending URL is working
+2020-01-10 12:44:27,794 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] insert in home controller
+2020-01-10 12:44:27,801 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] after getting result from home controller
+2020-01-10 12:44:27,801 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] home controller work successfully
+2020-01-10 12:44:27,802 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Before returning of results
+2020-01-10 13:34:06,444 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Sending URL is working
+2020-01-10 13:34:06,444 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Insert in Filter Controller
+2020-01-10 13:34:06,447 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] after getting category
+2020-01-10 13:34:06,459 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] after getting filter result
+2020-01-10 13:34:06,459 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] filter work successfully
+2020-01-10 13:34:06,459 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Before returning of results
+2020-01-10 13:35:52,593 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 29709 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 13:35:52,594 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 13:35:52,595 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 13:35:55,227 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.924 seconds (JVM running for 3.391)
+2020-01-10 13:36:02,420 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 13:36:02,421 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Insert in Filter Controller
+2020-01-10 13:36:05,188 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-10 13:36:05,188 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Insert in Filter Controller
+2020-01-10 13:36:06,213 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Sending URL is working
+2020-01-10 13:36:06,213 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Insert in Filter Controller
+2020-01-10 13:36:09,046 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Sending URL is working
+2020-01-10 13:36:09,047 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Insert in Filter Controller
+2020-01-10 13:36:11,079 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] Sending URL is working
+2020-01-10 13:36:11,079 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home controller
+2020-01-10 13:36:11,117 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] after getting result from home controller
+2020-01-10 13:36:11,118 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] home controller work successfully
+2020-01-10 13:36:11,118 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] Before returning of results
+2020-01-10 13:36:14,133 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Sending URL is working
+2020-01-10 13:36:14,133 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home controller
+2020-01-10 13:36:14,138 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] after getting result from home controller
+2020-01-10 13:36:14,138 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] home controller work successfully
+2020-01-10 13:36:14,139 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Before returning of results
+2020-01-10 13:36:16,778 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Sending URL is working
+2020-01-10 13:36:16,778 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home controller
+2020-01-10 13:36:16,782 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] after getting result from home controller
+2020-01-10 13:36:16,783 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] home controller work successfully
+2020-01-10 13:36:16,783 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Before returning of results
+2020-01-10 13:36:19,815 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] Sending URL is working
+2020-01-10 13:36:19,815 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] insert in home controller
+2020-01-10 13:36:19,819 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] after getting result from home controller
+2020-01-10 13:36:19,820 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] home controller work successfully
+2020-01-10 13:36:19,820 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] Before returning of results
+2020-01-10 13:36:23,245 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Sending URL is working
+2020-01-10 13:36:23,246 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Insert in published-date controller
+2020-01-10 13:36:23,256 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] After getting result of published date
+2020-01-10 13:36:23,256 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] published-date work successfully
+2020-01-10 13:36:23,256 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Before returning of results
+2020-01-10 13:36:25,076 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-10 13:36:25,077 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Insert in Filter Controller
+2020-01-10 13:36:50,034 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 29864 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 13:36:50,036 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 13:36:50,036 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 13:36:52,682 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.944 seconds (JVM running for 3.37)
+2020-01-10 13:36:54,845 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 13:36:54,845 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 13:36:54,895 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 13:36:54,895 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 13:36:54,896 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 13:36:58,300 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-10 13:36:58,301 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Insert in Filter Controller
+2020-01-10 13:36:58,312 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting category
+2020-01-10 13:36:58,323 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting filter result
+2020-01-10 13:36:58,324 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] filter work successfully
+2020-01-10 13:36:58,324 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Before returning of results
+2020-01-10 13:37:00,865 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Sending URL is working
+2020-01-10 13:37:00,866 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Insert in Filter Controller
+2020-01-10 13:37:00,868 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] after getting category
+2020-01-10 13:37:00,870 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] after getting filter result
+2020-01-10 13:37:00,871 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] filter work successfully
+2020-01-10 13:37:00,871 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Before returning of results
+2020-01-10 13:37:03,705 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Sending URL is working
+2020-01-10 13:37:03,706 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Insert in Filter Controller
+2020-01-10 13:37:03,708 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] after getting category
+2020-01-10 13:37:03,712 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] after getting filter result
+2020-01-10 13:37:03,712 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] filter work successfully
+2020-01-10 13:37:03,712 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Before returning of results
+2020-01-10 13:37:06,412 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] Sending URL is working
+2020-01-10 13:37:06,413 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] Insert in Filter Controller
+2020-01-10 13:37:06,415 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] after getting category
+2020-01-10 13:37:06,417 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] after getting filter result
+2020-01-10 13:37:06,417 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] filter work successfully
+2020-01-10 13:37:06,418 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] Before returning of results
+2020-01-10 13:37:08,113 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Sending URL is working
+2020-01-10 13:37:08,114 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home controller
+2020-01-10 13:37:08,131 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] after getting result from home controller
+2020-01-10 13:37:08,132 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] home controller work successfully
+2020-01-10 13:37:08,133 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Before returning of results
+2020-01-10 13:37:10,280 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Sending URL is working
+2020-01-10 13:37:10,281 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Insert in published-date controller
+2020-01-10 13:37:10,287 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] After getting result of published date
+2020-01-10 13:37:10,287 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] published-date work successfully
+2020-01-10 13:37:10,287 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Before returning of results
+2020-01-10 13:37:12,302 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] Sending URL is working
+2020-01-10 13:37:12,302 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] Insert in Filter Controller
+2020-01-10 13:37:12,304 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] after getting category
+2020-01-10 13:37:12,306 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] after getting filter result
+2020-01-10 13:37:12,306 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] filter work successfully
+2020-01-10 13:37:12,307 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] Before returning of results
+2020-01-10 13:37:15,119 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Sending URL is working
+2020-01-10 13:37:15,156 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Insert in published-date controller
+2020-01-10 13:37:15,170 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] After getting result of published date
+2020-01-10 13:37:15,171 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] published-date work successfully
+2020-01-10 13:37:15,172 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Before returning of results
+2020-01-10 13:37:17,476 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-10 13:37:17,476 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Insert in Filter Controller
+2020-01-10 13:37:17,478 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting category
+2020-01-10 13:37:17,482 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting filter result
+2020-01-10 13:37:17,482 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] filter work successfully
+2020-01-10 13:37:17,482 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Before returning of results
+2020-01-10 13:37:25,058 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Sending URL is working
+2020-01-10 13:37:25,059 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Insert in search controller
+2020-01-10 13:37:25,077 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] After searching result
+2020-01-10 13:37:25,078 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Searching work properly
+2020-01-10 13:37:25,079 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Before returning of results
+2020-01-10 13:37:35,498 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] Sending URL is working
+2020-01-10 13:37:35,499 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home controller
+2020-01-10 13:37:35,516 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] after getting result from home controller
+2020-01-10 13:37:35,517 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] home controller work successfully
+2020-01-10 13:37:35,518 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] Before returning of results
+2020-01-10 13:40:30,562 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 30046 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 13:40:30,563 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 13:40:30,564 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 13:40:33,211 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.925 seconds (JVM running for 3.381)
+2020-01-10 13:40:36,282 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 13:40:36,283 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 13:40:36,335 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 13:40:36,336 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 13:40:36,336 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 13:40:39,019 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-10 13:40:39,020 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Insert in search controller
+2020-01-10 13:40:39,036 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] After searching result
+2020-01-10 13:40:39,037 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Searching work properly
+2020-01-10 13:40:39,037 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Before returning of results
+2020-01-10 13:40:40,795 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Sending URL is working
+2020-01-10 13:40:40,796 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Insert in Filter Controller
+2020-01-10 13:40:40,815 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] after getting category
+2020-01-10 13:40:40,834 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] after getting filter result
+2020-01-10 13:40:40,835 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] filter work successfully
+2020-01-10 13:40:40,835 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Before returning of results
+2020-01-10 13:40:43,691 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Sending URL is working
+2020-01-10 13:40:43,692 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home controller
+2020-01-10 13:40:43,698 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] after getting result from home controller
+2020-01-10 13:40:43,699 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] home controller work successfully
+2020-01-10 13:40:43,699 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Before returning of results
+2020-01-10 13:40:46,244 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] Sending URL is working
+2020-01-10 13:40:46,244 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home controller
+2020-01-10 13:40:46,249 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] after getting result from home controller
+2020-01-10 13:40:46,249 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] home controller work successfully
+2020-01-10 13:40:46,249 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] Before returning of results
+2020-01-10 13:41:28,774 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 30197 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 13:41:28,775 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 13:41:28,776 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 13:41:31,508 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.019 seconds (JVM running for 3.434)
+2020-01-10 13:41:35,598 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 13:41:35,599 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 13:41:35,649 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 13:41:35,649 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 13:41:35,649 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 13:42:00,787 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 30332 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 13:42:00,788 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 13:42:00,789 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 13:42:03,389 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.898 seconds (JVM running for 3.34)
+2020-01-10 13:42:06,705 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 13:42:06,706 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 13:42:06,754 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 13:42:06,755 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 13:42:06,755 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 13:43:48,692 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 30479 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 13:43:48,694 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 13:43:48,694 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 13:43:51,329 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.935 seconds (JVM running for 3.37)
+2020-01-10 13:43:55,276 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 13:43:55,277 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Insert in Filter Controller
+2020-01-10 13:43:55,316 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting category
+2020-01-10 13:43:55,338 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting filter result
+2020-01-10 13:43:55,338 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] filter work successfully
+2020-01-10 13:43:55,338 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 13:43:57,505 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-10 13:43:57,506 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home controller
+2020-01-10 13:43:57,527 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting result from home controller
+2020-01-10 13:43:57,528 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] home controller work successfully
+2020-01-10 13:43:57,528 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Before returning of results
+2020-01-10 13:44:16,128 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 30619 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 13:44:16,130 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 13:44:16,131 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 13:44:18,786 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.961 seconds (JVM running for 3.447)
+2020-01-10 13:44:21,711 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 13:44:21,712 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 13:44:21,763 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 13:44:21,764 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 13:44:21,764 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 13:44:42,111 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 30744 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 13:44:42,113 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 13:44:42,113 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 13:44:44,712 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.889 seconds (JVM running for 3.354)
+2020-01-10 13:44:47,793 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 13:44:47,794 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 13:44:47,846 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 13:44:47,846 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 13:44:47,846 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 13:46:56,759 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 30898 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 13:46:56,760 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 13:46:56,760 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 13:46:59,390 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.916 seconds (JVM running for 3.431)
+2020-01-10 13:47:03,874 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 13:47:03,875 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 13:47:03,925 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 13:47:03,925 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 13:47:03,925 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 13:49:39,012 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 31070 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 13:49:39,013 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 13:49:39,014 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 13:49:41,627 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.932 seconds (JVM running for 3.406)
+2020-01-10 13:49:46,769 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 13:49:46,769 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 13:49:46,819 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 13:49:46,820 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 13:49:46,820 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 13:56:12,718 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 31296 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 13:56:12,719 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 13:56:12,720 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 13:56:15,339 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.908 seconds (JVM running for 3.324)
+2020-01-10 13:56:20,684 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 13:56:20,685 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 13:56:20,738 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 13:56:20,738 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 13:56:20,739 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 13:57:11,217 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 31442 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 13:57:11,218 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 13:57:11,219 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 13:57:13,851 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.916 seconds (JVM running for 3.344)
+2020-01-10 13:57:20,295 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 13:57:20,296 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 13:57:20,350 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 13:57:20,351 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 13:57:20,351 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 13:59:57,695 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 31606 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 13:59:57,697 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 13:59:57,697 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 14:00:00,358 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.956 seconds (JVM running for 3.379)
+2020-01-10 14:00:04,677 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 14:00:04,678 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 14:00:04,726 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 14:00:04,726 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 14:00:04,726 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 14:01:18,040 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 31763 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 14:01:18,041 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 14:01:18,042 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 14:01:20,664 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.911 seconds (JVM running for 3.367)
+2020-01-10 14:01:24,555 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 14:01:24,556 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 14:01:24,605 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 14:01:24,605 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 14:01:24,605 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 14:01:35,899 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Sending URL is working
+2020-01-10 14:01:35,901 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home controller
+2020-01-10 14:01:35,915 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] after getting result from home controller
+2020-01-10 14:01:35,916 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] home controller work successfully
+2020-01-10 14:01:35,917 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Before returning of results
+2020-01-10 14:01:42,725 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Sending URL is working
+2020-01-10 14:01:42,726 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home controller
+2020-01-10 14:01:42,732 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] after getting result from home controller
+2020-01-10 14:01:42,732 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] home controller work successfully
+2020-01-10 14:01:42,732 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Before returning of results
+2020-01-10 14:02:03,024 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] Sending URL is working
+2020-01-10 14:02:03,024 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] insert in home controller
+2020-01-10 14:02:03,028 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] after getting result from home controller
+2020-01-10 14:02:03,029 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] home controller work successfully
+2020-01-10 14:02:03,029 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] Before returning of results
+2020-01-10 14:02:37,521 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Sending URL is working
+2020-01-10 14:02:37,522 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home controller
+2020-01-10 14:02:37,526 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] after getting result from home controller
+2020-01-10 14:02:37,527 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] home controller work successfully
+2020-01-10 14:02:37,527 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Before returning of results
+2020-01-10 14:02:41,837 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Sending URL is working
+2020-01-10 14:02:41,837 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Insert into last-update controller
+2020-01-10 14:02:41,845 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] after getting result of last updated
+2020-01-10 14:02:41,845 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] last updated work successfully
+2020-01-10 14:02:41,845 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Before returning of results
+2020-01-10 14:02:54,564 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Sending URL is working
+2020-01-10 14:02:54,566 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Insert into last-update controller
+2020-01-10 14:02:54,580 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] after getting result of last updated
+2020-01-10 14:02:54,581 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] last updated work successfully
+2020-01-10 14:02:54,582 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Before returning of results
+2020-01-10 14:05:46,854 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 32262 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 14:05:46,855 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 14:05:46,855 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 14:05:49,499 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.922 seconds (JVM running for 3.386)
+2020-01-10 14:05:56,632 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 14:05:56,633 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 14:05:56,684 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 14:05:56,684 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 14:05:56,684 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 14:06:04,517 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-10 14:06:04,518 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Insert in published-date controller
+2020-01-10 14:06:04,530 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] After getting result of published date
+2020-01-10 14:06:04,530 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] published-date work successfully
+2020-01-10 14:06:04,530 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Before returning of results
+2020-01-10 14:06:06,680 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Sending URL is working
+2020-01-10 14:06:06,680 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Insert into last-update controller
+2020-01-10 14:06:06,686 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] after getting result of last updated
+2020-01-10 14:06:06,687 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] last updated work successfully
+2020-01-10 14:06:06,687 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Before returning of results
+2020-01-10 14:06:52,371 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 32417 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 14:06:52,372 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 14:06:52,373 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 14:06:55,047 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.017 seconds (JVM running for 3.504)
+2020-01-10 14:06:57,876 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 14:06:57,877 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 14:06:57,926 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 14:06:57,926 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 14:06:57,926 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 14:07:05,676 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-10 14:07:05,677 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Insert into last-update controller
+2020-01-10 14:07:05,686 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting result of last updated
+2020-01-10 14:07:05,686 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] last updated work successfully
+2020-01-10 14:07:05,686 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Before returning of results
+2020-01-10 14:07:44,826 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 32577 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 14:07:44,828 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 14:07:44,828 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 14:07:47,429 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.912 seconds (JVM running for 3.37)
+2020-01-10 14:07:50,491 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 14:07:50,492 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 14:07:50,544 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 14:07:50,544 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 14:07:50,544 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 14:07:53,546 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-10 14:07:53,546 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Insert into last-update controller
+2020-01-10 14:07:53,555 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting result of last updated
+2020-01-10 14:07:53,556 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] last updated work successfully
+2020-01-10 14:07:53,556 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Before returning of results
+2020-01-10 14:08:26,658 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 32710 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 14:08:26,659 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 14:08:26,659 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 14:08:29,360 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.978 seconds (JVM running for 3.474)
+2020-01-10 14:08:33,215 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 14:08:33,216 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 14:08:33,265 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 14:08:33,266 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 14:08:33,266 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 14:08:36,923 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-10 14:08:36,923 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Insert into last-update controller
+2020-01-10 14:08:36,933 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting result of last updated
+2020-01-10 14:08:36,934 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] last updated work successfully
+2020-01-10 14:08:36,934 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Before returning of results
+2020-01-10 14:08:44,658 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Sending URL is working
+2020-01-10 14:08:44,659 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home controller
+2020-01-10 14:08:44,675 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] after getting result from home controller
+2020-01-10 14:08:44,676 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] home controller work successfully
+2020-01-10 14:08:44,677 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Before returning of results
+2020-01-10 14:09:34,135 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 394 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 14:09:34,137 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 14:09:34,137 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 14:09:36,795 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.929 seconds (JVM running for 3.406)
+2020-01-10 14:09:38,017 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 14:09:38,017 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 14:09:38,070 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 14:09:38,070 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 14:09:38,070 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 14:09:48,072 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Sending URL is working
+2020-01-10 14:09:48,073 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Insert into last-update controller
+2020-01-10 14:09:48,095 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] after getting result of last updated
+2020-01-10 14:09:48,095 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] last updated work successfully
+2020-01-10 14:09:48,096 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Before returning of results
+2020-01-10 14:09:59,621 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 561 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 14:09:59,622 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 14:09:59,623 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 14:10:02,231 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.899 seconds (JVM running for 3.364)
+2020-01-10 14:10:05,065 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 14:10:05,066 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 14:10:05,115 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 14:10:05,115 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 14:10:05,116 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 14:10:15,209 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 692 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 14:10:15,211 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 14:10:15,211 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 14:10:17,864 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.95 seconds (JVM running for 3.454)
+2020-01-10 14:10:18,593 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 14:10:18,594 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 14:10:18,648 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 14:10:18,649 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 14:10:18,649 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 14:10:24,197 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-10 14:10:24,197 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home controller
+2020-01-10 14:10:24,203 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting result from home controller
+2020-01-10 14:10:24,203 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] home controller work successfully
+2020-01-10 14:10:24,203 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Before returning of results
+2020-01-10 14:11:24,318 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] Sending URL is working
+2020-01-10 14:11:24,318 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home controller
+2020-01-10 14:11:24,323 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] after getting result from home controller
+2020-01-10 14:11:24,323 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] home controller work successfully
+2020-01-10 14:11:24,323 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] Before returning of results
+2020-01-10 14:11:27,326 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] Sending URL is working
+2020-01-10 14:11:27,327 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home controller
+2020-01-10 14:11:27,332 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] after getting result from home controller
+2020-01-10 14:11:27,332 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] home controller work successfully
+2020-01-10 14:11:27,332 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] Before returning of results
+2020-01-10 14:11:29,808 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Sending URL is working
+2020-01-10 14:11:29,809 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Insert into last-update controller
+2020-01-10 14:11:29,820 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] after getting result of last updated
+2020-01-10 14:11:29,821 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] last updated work successfully
+2020-01-10 14:11:29,821 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Before returning of results
+2020-01-10 14:11:32,292 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] Sending URL is working
+2020-01-10 14:11:32,293 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] Insert into last-update controller
+2020-01-10 14:11:32,297 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] after getting result of last updated
+2020-01-10 14:11:32,297 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] last updated work successfully
+2020-01-10 14:11:32,298 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] Before returning of results
+2020-01-10 14:11:34,593 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Sending URL is working
+2020-01-10 14:11:34,593 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Insert in Filter Controller
+2020-01-10 14:11:34,601 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] after getting category
+2020-01-10 14:11:34,611 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] after getting filter result
+2020-01-10 14:11:34,612 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] filter work successfully
+2020-01-10 14:11:34,612 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Before returning of results
+2020-01-10 14:11:36,813 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 14:11:36,814 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Insert in Filter Controller
+2020-01-10 14:11:36,816 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting category
+2020-01-10 14:11:36,818 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting filter result
+2020-01-10 14:11:36,818 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] filter work successfully
+2020-01-10 14:11:36,819 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 14:11:39,007 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-10 14:11:39,008 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Insert in Filter Controller
+2020-01-10 14:11:39,013 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting category
+2020-01-10 14:11:39,020 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting filter result
+2020-01-10 14:11:39,021 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] filter work successfully
+2020-01-10 14:11:39,021 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Before returning of results
+2020-01-10 14:11:44,517 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Sending URL is working
+2020-01-10 14:11:44,518 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Insert in Filter Controller
+2020-01-10 14:11:44,524 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] after getting category
+2020-01-10 14:11:44,531 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] after getting filter result
+2020-01-10 14:11:44,532 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] filter work successfully
+2020-01-10 14:11:44,533 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Before returning of results
+2020-01-10 14:11:47,936 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] Sending URL is working
+2020-01-10 14:11:47,937 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home controller
+2020-01-10 14:11:47,942 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] after getting result from home controller
+2020-01-10 14:11:47,943 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] home controller work successfully
+2020-01-10 14:11:47,943 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] Before returning of results
+2020-01-10 14:20:07,693 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Sending URL is working
+2020-01-10 14:20:07,693 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] insert in home controller
+2020-01-10 14:20:07,699 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] after getting result from home controller
+2020-01-10 14:20:07,699 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] home controller work successfully
+2020-01-10 14:20:07,699 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Before returning of results
+2020-01-10 14:20:19,599 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Sending URL is working
+2020-01-10 14:20:19,599 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home controller
+2020-01-10 14:20:19,611 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] after getting result from home controller
+2020-01-10 14:20:19,611 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] home controller work successfully
+2020-01-10 14:20:19,612 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Before returning of results
+2020-01-10 14:26:59,831 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 1096 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 14:26:59,832 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 14:26:59,833 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 14:27:02,525 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.998 seconds (JVM running for 3.428)
+2020-01-10 14:29:00,646 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 1313 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 14:29:00,647 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 14:29:00,647 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 14:29:03,359 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.997 seconds (JVM running for 3.431)
+2020-01-10 14:29:10,540 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 14:29:10,541 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 14:29:10,591 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 14:29:10,592 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 14:29:10,592 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 14:30:02,682 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 1497 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 14:30:02,683 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 14:30:02,683 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 14:30:05,361 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.966 seconds (JVM running for 3.386)
+2020-01-10 14:30:15,184 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Sending URL is working
+2020-01-10 14:30:15,185 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home controller
+2020-01-10 14:30:15,241 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] after getting result from home controller
+2020-01-10 14:30:15,242 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] home controller work successfully
+2020-01-10 14:30:15,242 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Before returning of results
+2020-01-10 14:30:24,794 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Sending URL is working
+2020-01-10 14:30:24,794 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home controller
+2020-01-10 14:30:24,801 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] after getting result from home controller
+2020-01-10 14:30:24,801 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] home controller work successfully
+2020-01-10 14:30:24,801 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Before returning of results
+2020-01-10 14:30:27,247 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Sending URL is working
+2020-01-10 14:30:27,248 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Insert in published-date controller
+2020-01-10 14:30:27,257 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] After getting result of published date
+2020-01-10 14:30:27,257 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] published-date work successfully
+2020-01-10 14:30:27,257 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Before returning of results
+2020-01-10 14:30:29,912 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] Sending URL is working
+2020-01-10 14:30:29,913 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] Insert into last-update controller
+2020-01-10 14:30:29,920 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] after getting result of last updated
+2020-01-10 14:30:29,920 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] last updated work successfully
+2020-01-10 14:30:29,920 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] Before returning of results
+2020-01-10 14:30:35,275 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Sending URL is working
+2020-01-10 14:30:35,276 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Insert into last-update controller
+2020-01-10 14:30:35,284 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] after getting result of last updated
+2020-01-10 14:30:35,285 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] last updated work successfully
+2020-01-10 14:30:35,285 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Before returning of results
+2020-01-10 14:30:39,179 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] Sending URL is working
+2020-01-10 14:30:39,179 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] Insert into last-update controller
+2020-01-10 14:30:39,184 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] after getting result of last updated
+2020-01-10 14:30:39,184 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] last updated work successfully
+2020-01-10 14:30:39,184 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] Before returning of results
+2020-01-10 14:30:40,271 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Sending URL is working
+2020-01-10 14:30:40,273 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home controller
+2020-01-10 14:30:40,288 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] after getting result from home controller
+2020-01-10 14:30:40,289 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] home controller work successfully
+2020-01-10 14:30:40,290 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Before returning of results
+2020-01-10 14:31:48,790 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 1888 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 14:31:48,791 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 14:31:48,791 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 14:31:51,418 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.913 seconds (JVM running for 3.367)
+2020-01-10 14:31:59,111 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 14:31:59,112 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 14:31:59,162 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 14:31:59,163 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 14:31:59,163 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 14:32:39,177 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Sending URL is working
+2020-01-10 14:32:39,177 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home controller
+2020-01-10 14:32:39,183 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] after getting result from home controller
+2020-01-10 14:32:39,183 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] home controller work successfully
+2020-01-10 14:32:39,183 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Before returning of results
+2020-01-10 14:33:08,852 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 14:33:08,852 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 14:33:08,857 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 14:33:08,858 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 14:33:08,858 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 14:36:06,419 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Sending URL is working
+2020-01-10 14:36:06,420 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] insert in home controller
+2020-01-10 14:36:06,428 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] after getting result from home controller
+2020-01-10 14:36:06,429 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] home controller work successfully
+2020-01-10 14:36:06,429 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Before returning of results
+2020-01-10 14:36:08,932 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 14:36:08,933 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Insert in published-date controller
+2020-01-10 14:36:08,956 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] After getting result of published date
+2020-01-10 14:36:08,956 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] published-date work successfully
+2020-01-10 14:36:08,956 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 14:36:11,289 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-10 14:36:11,289 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Insert in Filter Controller
+2020-01-10 14:36:11,294 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting category
+2020-01-10 14:36:11,306 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting filter result
+2020-01-10 14:36:11,306 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] filter work successfully
+2020-01-10 14:36:11,306 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Before returning of results
+2020-01-10 18:03:00,523 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 18724 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 18:03:00,524 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 18:03:00,525 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 18:03:03,375 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.149 seconds (JVM running for 3.664)
+2020-01-10 18:03:15,337 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 18:03:15,338 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 18:03:15,390 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 18:03:15,390 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 18:03:15,390 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 18:03:45,297 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Sending URL is working
+2020-01-10 18:03:45,298 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home controller
+2020-01-10 18:03:45,302 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] after getting result from home controller
+2020-01-10 18:03:45,302 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] home controller work successfully
+2020-01-10 18:03:45,303 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Before returning of results
+2020-01-10 18:05:19,521 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 18903 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-10 18:05:19,522 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-10 18:05:19,522 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-10 18:05:22,205 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.981 seconds (JVM running for 3.426)
+2020-01-10 18:05:27,608 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 18:05:27,608 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 18:05:27,658 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 18:05:27,659 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 18:05:27,659 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 18:05:36,228 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Sending URL is working
+2020-01-10 18:05:36,228 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home controller
+2020-01-10 18:05:36,232 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] after getting result from home controller
+2020-01-10 18:05:36,232 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] home controller work successfully
+2020-01-10 18:05:36,232 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Before returning of results
+2020-01-10 18:05:43,957 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Sending URL is working
+2020-01-10 18:05:43,958 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home controller
+2020-01-10 18:05:43,965 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] after getting result from home controller
+2020-01-10 18:05:43,965 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] home controller work successfully
+2020-01-10 18:05:43,966 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Before returning of results
+2020-01-10 18:07:33,074 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] Sending URL is working
+2020-01-10 18:07:33,074 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home controller
+2020-01-10 18:07:33,078 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] after getting result from home controller
+2020-01-10 18:07:33,078 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] home controller work successfully
+2020-01-10 18:07:33,078 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] Before returning of results
+2020-01-10 18:08:05,405 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 18:08:05,406 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 18:08:05,429 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 18:08:05,429 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 18:08:05,430 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 18:08:07,455 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-10 18:08:07,456 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home controller
+2020-01-10 18:08:07,462 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting result from home controller
+2020-01-10 18:08:07,462 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] home controller work successfully
+2020-01-10 18:08:07,462 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Before returning of results
+2020-01-10 18:08:15,465 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] Sending URL is working
+2020-01-10 18:08:15,465 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home controller
+2020-01-10 18:08:15,470 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] after getting result from home controller
+2020-01-10 18:08:15,470 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] home controller work successfully
+2020-01-10 18:08:15,470 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] Before returning of results
+2020-01-10 18:08:23,135 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Sending URL is working
+2020-01-10 18:08:23,136 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home controller
+2020-01-10 18:08:23,151 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] after getting result from home controller
+2020-01-10 18:08:23,152 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] home controller work successfully
+2020-01-10 18:08:23,152 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Before returning of results
+2020-01-10 18:08:30,269 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Sending URL is working
+2020-01-10 18:08:30,270 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] insert in home controller
+2020-01-10 18:08:30,288 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] after getting result from home controller
+2020-01-10 18:08:30,288 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] home controller work successfully
+2020-01-10 18:08:30,288 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Before returning of results
+2020-01-10 18:08:33,753 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Sending URL is working
+2020-01-10 18:08:33,754 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home controller
+2020-01-10 18:08:33,766 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] after getting result from home controller
+2020-01-10 18:08:33,767 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] home controller work successfully
+2020-01-10 18:08:33,768 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Before returning of results
+2020-01-10 18:08:55,850 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Sending URL is working
+2020-01-10 18:08:55,852 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home controller
+2020-01-10 18:08:55,871 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] after getting result from home controller
+2020-01-10 18:08:55,872 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] home controller work successfully
+2020-01-10 18:08:55,872 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Before returning of results
+2020-01-10 18:09:20,169 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-10 18:09:20,170 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-10 18:09:20,185 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-10 18:09:20,186 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-10 18:09:20,186 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-10 18:09:21,519 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Sending URL is working
+2020-01-10 18:09:21,520 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home controller
+2020-01-10 18:09:21,534 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] after getting result from home controller
+2020-01-10 18:09:21,534 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] home controller work successfully
+2020-01-10 18:09:21,535 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Before returning of results
+2020-01-10 18:10:35,165 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] Sending URL is working
+2020-01-10 18:10:35,165 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] insert in home controller
+2020-01-10 18:10:35,169 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] after getting result from home controller
+2020-01-10 18:10:35,169 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] home controller work successfully
+2020-01-10 18:10:35,170 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] Before returning of results
+2020-01-10 18:10:49,669 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-10 18:10:49,670 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home controller
+2020-01-10 18:10:49,679 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting result from home controller
+2020-01-10 18:10:49,680 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] home controller work successfully
+2020-01-10 18:10:49,681 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Before returning of results
+2020-01-10 18:10:51,698 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Sending URL is working
+2020-01-10 18:10:51,699 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home controller
+2020-01-10 18:10:51,712 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] after getting result from home controller
+2020-01-10 18:10:51,712 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] home controller work successfully
+2020-01-10 18:10:51,712 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Before returning of results
+2020-01-13 09:58:15,854 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 15141 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-13 09:58:15,855 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-13 09:58:15,855 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-13 09:58:23,108 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 8.337 seconds (JVM running for 9.512)
+2020-01-13 09:58:34,856 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-13 09:58:34,858 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-13 09:58:35,057 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-13 09:58:35,058 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-13 09:58:35,058 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-13 09:58:35,779 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-13 09:58:35,779 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home controller
+2020-01-13 09:58:35,786 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting result from home controller
+2020-01-13 09:58:35,787 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] home controller work successfully
+2020-01-13 09:58:35,787 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Before returning of results
+2020-01-13 09:58:52,932 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Sending URL is working
+2020-01-13 09:58:52,932 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home controller
+2020-01-13 09:58:52,938 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] after getting result from home controller
+2020-01-13 09:58:52,938 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] home controller work successfully
+2020-01-13 09:58:52,938 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Before returning of results
+2020-01-13 10:06:24,658 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 15635 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-13 10:06:24,660 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-13 10:06:24,660 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-13 10:06:27,434 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.08 seconds (JVM running for 3.557)
+2020-01-13 10:06:34,753 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-13 10:06:34,754 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-13 10:06:34,805 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-13 10:06:34,805 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-13 10:06:34,805 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-13 10:06:35,225 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-13 10:06:35,226 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home controller
+2020-01-13 10:06:35,234 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting result from home controller
+2020-01-13 10:06:35,235 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] home controller work successfully
+2020-01-13 10:06:35,235 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Before returning of results
+2020-01-13 10:06:46,978 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Sending URL is working
+2020-01-13 10:06:46,978 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home controller
+2020-01-13 10:06:46,983 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] after getting result from home controller
+2020-01-13 10:06:46,983 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] home controller work successfully
+2020-01-13 10:06:46,983 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Before returning of results
+2020-01-13 10:06:50,388 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Sending URL is working
+2020-01-13 10:06:50,388 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home controller
+2020-01-13 10:06:50,391 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] after getting result from home controller
+2020-01-13 10:06:50,392 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] home controller work successfully
+2020-01-13 10:06:50,392 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Before returning of results
+2020-01-13 10:06:52,634 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-13 10:06:52,634 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-13 10:06:52,639 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-13 10:06:52,640 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-13 10:06:52,640 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-13 10:06:58,212 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Sending URL is working
+2020-01-13 10:06:58,212 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home controller
+2020-01-13 10:06:58,218 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] after getting result from home controller
+2020-01-13 10:06:58,218 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] home controller work successfully
+2020-01-13 10:06:58,218 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Before returning of results
+2020-01-13 10:07:09,337 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] Sending URL is working
+2020-01-13 10:07:09,337 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home controller
+2020-01-13 10:07:09,340 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] after getting result from home controller
+2020-01-13 10:07:09,341 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] home controller work successfully
+2020-01-13 10:07:09,341 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] Before returning of results
+2020-01-13 10:07:10,859 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] Sending URL is working
+2020-01-13 10:07:10,860 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] insert in home controller
+2020-01-13 10:07:10,870 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] after getting result from home controller
+2020-01-13 10:07:10,871 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] home controller work successfully
+2020-01-13 10:07:10,871 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] Before returning of results
+2020-01-13 10:07:18,491 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Sending URL is working
+2020-01-13 10:07:18,491 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home controller
+2020-01-13 10:07:18,497 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] after getting result from home controller
+2020-01-13 10:07:18,498 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] home controller work successfully
+2020-01-13 10:07:18,498 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Before returning of results
+2020-01-13 10:07:54,734 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Sending URL is working
+2020-01-13 10:07:54,734 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home controller
+2020-01-13 10:07:54,740 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] after getting result from home controller
+2020-01-13 10:07:54,740 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] home controller work successfully
+2020-01-13 10:07:54,740 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Before returning of results
+2020-01-13 10:07:58,061 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] Sending URL is working
+2020-01-13 10:07:58,062 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] insert in home controller
+2020-01-13 10:07:58,069 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] after getting result from home controller
+2020-01-13 10:07:58,069 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] home controller work successfully
+2020-01-13 10:07:58,069 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] Before returning of results
+2020-01-13 10:08:07,473 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-13 10:08:07,474 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home controller
+2020-01-13 10:08:07,492 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting result from home controller
+2020-01-13 10:08:07,493 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] home controller work successfully
+2020-01-13 10:08:07,493 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Before returning of results
+2020-01-13 10:08:22,012 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Sending URL is working
+2020-01-13 10:08:22,012 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] insert in home controller
+2020-01-13 10:08:22,018 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] after getting result from home controller
+2020-01-13 10:08:22,019 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] home controller work successfully
+2020-01-13 10:08:22,019 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-7] Before returning of results
+2020-01-13 10:08:24,572 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Sending URL is working
+2020-01-13 10:08:24,573 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] insert in home controller
+2020-01-13 10:08:24,579 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] after getting result from home controller
+2020-01-13 10:08:24,579 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] home controller work successfully
+2020-01-13 10:08:24,579 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Before returning of results
+2020-01-13 10:08:30,064 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Sending URL is working
+2020-01-13 10:08:30,064 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home controller
+2020-01-13 10:08:30,068 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] after getting result from home controller
+2020-01-13 10:08:30,068 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] home controller work successfully
+2020-01-13 10:08:30,068 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Before returning of results
+2020-01-13 10:08:39,537 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Sending URL is working
+2020-01-13 10:08:39,537 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] insert in home controller
+2020-01-13 10:08:39,542 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] after getting result from home controller
+2020-01-13 10:08:39,543 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] home controller work successfully
+2020-01-13 10:08:39,543 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Before returning of results
+2020-01-13 10:08:49,662 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-13 10:08:49,663 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home controller
+2020-01-13 10:08:49,670 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting result from home controller
+2020-01-13 10:08:49,671 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] home controller work successfully
+2020-01-13 10:08:49,671 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Before returning of results
+2020-01-13 10:08:54,006 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Sending URL is working
+2020-01-13 10:08:54,007 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Insert in published-date controller
+2020-01-13 10:08:54,023 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] After getting result of published date
+2020-01-13 10:08:54,024 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] published-date work successfully
+2020-01-13 10:08:54,024 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Before returning of results
+2020-01-13 10:08:56,634 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] Sending URL is working
+2020-01-13 10:08:56,634 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] Insert into last-update controller
+2020-01-13 10:08:56,639 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] after getting result of last updated
+2020-01-13 10:08:56,639 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] last updated work successfully
+2020-01-13 10:08:56,639 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] Before returning of results
+2020-01-13 10:09:08,371 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Sending URL is working
+2020-01-13 10:09:08,372 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Insert into last-update controller
+2020-01-13 10:09:08,379 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] after getting result of last updated
+2020-01-13 10:09:08,379 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] last updated work successfully
+2020-01-13 10:09:08,380 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-10] Before returning of results
+2020-01-13 10:09:11,549 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Sending URL is working
+2020-01-13 10:09:11,549 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home controller
+2020-01-13 10:09:11,554 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] after getting result from home controller
+2020-01-13 10:09:11,554 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] home controller work successfully
+2020-01-13 10:09:11,555 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Before returning of results
+2020-01-13 10:09:13,787 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Sending URL is working
+2020-01-13 10:09:13,787 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home controller
+2020-01-13 10:09:13,792 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] after getting result from home controller
+2020-01-13 10:09:13,793 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] home controller work successfully
+2020-01-13 10:09:13,793 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Before returning of results
+2020-01-13 10:09:16,100 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] Sending URL is working
+2020-01-13 10:09:16,100 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] Insert in published-date controller
+2020-01-13 10:09:16,109 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] After getting result of published date
+2020-01-13 10:09:16,110 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] published-date work successfully
+2020-01-13 10:09:16,110 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-6] Before returning of results
+2020-01-13 10:09:19,289 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Sending URL is working
+2020-01-13 10:09:19,289 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Insert in published-date controller
+2020-01-13 10:09:19,294 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] After getting result of published date
+2020-01-13 10:09:19,295 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] published-date work successfully
+2020-01-13 10:09:19,295 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-8] Before returning of results
+2020-01-13 10:09:21,181 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] Sending URL is working
+2020-01-13 10:09:21,182 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] Insert into last-update controller
+2020-01-13 10:09:21,193 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] after getting result of last updated
+2020-01-13 10:09:21,193 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] last updated work successfully
+2020-01-13 10:09:21,194 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-9] Before returning of results
+2020-01-13 10:11:10,857 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 15959 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-13 10:11:10,858 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-13 10:11:10,859 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-13 10:11:13,503 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.932 seconds (JVM running for 3.389)
+2020-01-13 10:11:19,222 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-13 10:11:19,222 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Insert into last-update controller
+2020-01-13 10:11:19,272 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result of last updated
+2020-01-13 10:11:19,272 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] last updated work successfully
+2020-01-13 10:11:19,272 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-13 10:11:26,325 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Sending URL is working
+2020-01-13 10:11:26,325 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] insert in home controller
+2020-01-13 10:11:26,342 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] after getting result from home controller
+2020-01-13 10:11:26,342 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] home controller work successfully
+2020-01-13 10:11:26,342 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-4] Before returning of results
+2020-01-13 10:14:29,563 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 16185 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-13 10:14:29,565 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-13 10:14:29,565 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-13 10:14:32,243 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 2.966 seconds (JVM running for 3.425)
+2020-01-13 10:14:40,969 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 16309 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-13 10:14:40,971 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-13 10:14:40,971 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-13 10:14:43,857 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.201 seconds (JVM running for 3.668)
+2020-01-13 10:14:50,829 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-13 10:14:50,830 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-13 10:14:50,891 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-13 10:14:50,891 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-13 10:14:50,891 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-13 10:14:51,311 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Sending URL is working
+2020-01-13 10:14:51,311 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] insert in home controller
+2020-01-13 10:14:51,318 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] after getting result from home controller
+2020-01-13 10:14:51,318 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] home controller work successfully
+2020-01-13 10:14:51,319 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-3] Before returning of results
+2020-01-13 10:14:58,768 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] Sending URL is working
+2020-01-13 10:14:58,768 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] insert in home controller
+2020-01-13 10:14:58,772 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] after getting result from home controller
+2020-01-13 10:14:58,773 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] home controller work successfully
+2020-01-13 10:14:58,773 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-5] Before returning of results
+2020-01-13 10:16:47,545 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-13 10:16:47,545 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-13 10:16:47,553 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-13 10:16:47,553 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-13 10:16:47,554 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
+2020-01-13 10:16:52,475 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Sending URL is working
+2020-01-13 10:16:52,475 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] insert in home controller
+2020-01-13 10:16:52,482 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] after getting result from home controller
+2020-01-13 10:16:52,483 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] home controller work successfully
+2020-01-13 10:16:52,483 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-2] Before returning of results
+2020-01-13 10:32:24,828 INFO org.springframework.boot.StartupInfoLogger [main] Starting BlogApp on shiw-Vostro-3478 with PID 17057 (/home/shiw/IdeaProjects/demoBlog/target/classes started by shiw in /home/shiw/IdeaProjects/demoBlog)
+2020-01-13 10:32:24,829 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-13 10:32:24,829 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-13 10:32:27,583 INFO org.springframework.boot.StartupInfoLogger [main] Started BlogApp in 3.078 seconds (JVM running for 3.67)
+2020-01-13 10:32:38,611 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Sending URL is working
+2020-01-13 10:32:38,612 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] insert in home controller
+2020-01-13 10:32:38,671 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] after getting result from home controller
+2020-01-13 10:32:38,671 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] home controller work successfully
+2020-01-13 10:32:38,671 INFO net.blog.post.controller.PostsController [http-nio-8081-exec-1] Before returning of results
