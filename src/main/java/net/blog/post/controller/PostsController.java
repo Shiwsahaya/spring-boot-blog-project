@@ -38,7 +38,7 @@ public class PostsController {
                              @RequestParam(value = "search", defaultValue = "") String keyWord,
                              @RequestParam(value = "sort-by", defaultValue = "") String sortBy,
                              @RequestParam(value = "filter", defaultValue = "") String filterName) {
-        System.out.println("insert in home comtnroller" +
+        System.out.println("insert in home controller" +
                 "");
         LOGGER.info("Sending URL is working");
         ModelAndView mav = new ModelAndView("result");

@@ -1,4 +1,6 @@
 package net.blog.post.model;
+import lombok.Getter;
+import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 import javax.persistence.*;
@@ -11,30 +13,34 @@ public class Posts {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id", updatable = false, nullable = false, insertable = false)
+    @Setter
+    @Getter
     private  int id;
+
+    @Setter
+    @Getter
     private String title;
+
+    @Setter
+    @Getter
     private String body;
-    public Users getAuthorId() {
-        return authorId;
-    }
-    public void setAuthorId(Users authorId) {
-        this.authorId = authorId;
-    }
+
     @ManyToOne
+    @Setter
+    @Getter
     private Users authorId;
+
     @CreationTimestamp
     @Column(updatable = false)
+    @Setter
+    @Getter
     private LocalDateTime createdAt;
+
     @UpdateTimestamp
+    @Setter
+    @Getter
     private LocalDateTime updatedAt;
 
-    public List<Category> getCategories() {
-        return categories;
-    }
-
-    public void setCategories(List<Category> categories) {
-        this.categories = categories;
-    }
     @ManyToMany(fetch=FetchType.LAZY,
             cascade= {CascadeType.PERSIST, CascadeType.MERGE,
                     CascadeType.DETACH, CascadeType.REFRESH})
@@ -43,6 +49,8 @@ public class Posts {
             joinColumns=@JoinColumn(name="posts_id"),
             inverseJoinColumns=@JoinColumn(name="category_id")
     )
+    @Setter
+    @Getter
     private List<Category> categories=new ArrayList<>();
 
     public void addCategory(Category theCategory){
@@ -51,53 +59,4 @@ public class Posts {
         }
         categories.add(theCategory);
     }
-
-
-
-
-    public LocalDateTime getCreatedAt() {
-        return createdAt;
-    }
-
-    public void setCreatedAt(LocalDateTime createdAt) {
-        this.createdAt = createdAt;
-    }
-
-    public LocalDateTime getUpdatedAt() {
-        return updatedAt;
-    }
-
-    public void setUpdatedAt(LocalDateTime updatedAt) {
-        this.updatedAt = updatedAt;
-    }
-
-
-
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getBody() {
-        return body;
-    }
-
-    public void setBody(String body) {
-        this.body = body;
-    }
-
-
-
 }
