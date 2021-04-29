@@ -1,0 +1,44 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "23:30"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.springframework.boot:spring-boot-starter-security
+    versions:
+    - 2.4.2
+    - 2.4.3
+    - 2.4.4
+  - dependency-name: org.springframework.boot:spring-boot-starter-parent
+    versions:
+    - 2.4.2
+    - 2.4.3
+    - 2.4.4
+  - dependency-name: org.apache.tomcat:tomcat-jasper
+    versions:
+    - 10.0.0
+    - 10.0.2
+    - 10.0.4
+  - dependency-name: org.postgresql:postgresql
+    versions:
+    - 42.2.18
+    - 42.2.19
+  - dependency-name: org.springframework.security:spring-security-taglibs
+    versions:
+    - 5.4.2
+    - 5.4.4
+    - 5.4.5
+  - dependency-name: org.springframework.security:spring-security-config
+    versions:
+    - 5.4.2
+    - 5.4.4
+    - 5.4.5
+  - dependency-name: org.projectlombok:lombok
+    versions:
+    - 1.18.18
+  - dependency-name: org.springframework:spring-webmvc
+    versions:
+    - 5.2.7.RELEASE
